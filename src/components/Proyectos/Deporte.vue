@@ -1,0 +1,107 @@
+<template>
+  <section class="proyecto">
+    <loader></loader>
+    <div
+      style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
+    >
+      <b-carousel
+        id="carousel-fade"
+        style="filter: brightness(0.5);text-shadow: 0px 0px 2px #000; z-index:-1;box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);"
+        fade
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide img-src="public/images/site/deporte.jpg"></b-carousel-slide>
+      </b-carousel>
+    </div>
+
+    <section class="section-style primera-seccion">
+      <div class="bienvenida">
+        <h1 style="margin:0; padding:0">Educación Física</h1>
+      </div>
+      <p>
+        Futbol, Hockey y Softball
+        <br />MODALIDAD: Martes y Jueves de 8 a 17 hs. PROFESOR LUCAS GATTO
+        <br />Un profesor trabaja con cada grupo incorporando actividades conforme a las edades de los chicos
+        <br />Este año se incorporó al HOCKEY como nuevo deporte gracias al gran aporte de donaciones del equipamiento para el Grupo Grande y Mediano de la casa
+        <br />Sumamos equipamiento para SOFTBALL gracias a una generosa donación de tres cascos protectores para incorporar la figura del Cátcher
+        <br />
+      </p>
+    </section>
+
+    <section class="section-style" style="margin-top:30px">
+      <b-carousel style="z-index:2" id="carousel-fade2" img-height="300">
+        <b-carousel-slide img-src="public/images/site/deporte/deporte1.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte2.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte3.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte4.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte5.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte6.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte7.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte8.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte9.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte10.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte12.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte13.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte14.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte15.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="public/images/site/deporte/deporte16.jpg"></b-carousel-slide>
+      </b-carousel>
+    </section>
+  </section>
+</template>
+
+<script>
+import Loader from "../shared/Loader";
+
+import { Carousel, Slide } from "vue-carousel";
+
+import { mapGetters } from "vuex";
+
+export default {
+  name: "app",
+  data() {
+    return {
+      slide: 0,
+      sliding: null,
+      classIndex: ""
+    };
+  },
+  methods: {
+    onSlideStart(slide) {
+      this.sliding = true;
+    },
+    onSlideEnd(slide) {
+      this.sliding = false;
+    }
+  },
+  computed: {
+    ...mapGetters(["categorias", "userLogged"])
+  },
+  components: {
+    Loader: Loader,
+    Carousel,
+    Slide
+  },
+
+  mounted: function() {
+    if (this.userLogged.profile == "HIJO") {
+      this.classIndex = "index-kids";
+    }
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+  }
+};
+</script>
+
+<style>
+.icon-obj {
+  width: 80px;
+  height: 80px;
+  color: #2daae1;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+}
+</style>
