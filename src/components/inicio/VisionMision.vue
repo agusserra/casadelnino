@@ -5,7 +5,7 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h2>
+              <h2 style="color: rgba(0, 0, 0, 0.7);">
                 Nuestra
                 <a style="color:#BED546">Misión</a>
               </h2>
@@ -18,11 +18,11 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h2>
+              <h2 style="color: rgba(0, 0, 0, 0.7);">
                 Nuestra
                 <a style="color:#BED546">Visión</a>
               </h2>
-              <b-card-text>Ser un Hogar con las puertas abiertas brindando apoyo integral a los niños y sus familias.</b-card-text>
+              <b-card-text>Ser un hogar con las puertas abiertas brindando apoyo integral a los niños y sus familias.</b-card-text>
             </b-card-body>
           </b-col>
         </b-row>
@@ -56,7 +56,7 @@ export default {
   padding: 10px;
 }
 .card {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {

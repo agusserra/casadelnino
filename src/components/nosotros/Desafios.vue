@@ -17,82 +17,6 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="bienvenida">
-        <h1 style=" margin:0; padding:0">Conocenos</h1>
-      </div>
-      <div style="text-aling:center">
-        <b-card-group style="place-content:center">
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/1001/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Presidente</h6>
-              <h5 class="nombre">Padre Guillermo I. del Valle Carmona</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/1005/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Directora</h6>
-              <h5 class="nombre">Mercedes Verón</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/203/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Comisión directiva</h6>
-              <h5 class="nombre">Ricardo del Pino</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/177/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Comisión directiva</h6>
-              <h5 class="nombre">Monique Torralva</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/3/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Comisión directiva</h6>
-              <h5 class="nombre">Gabriela Sarquis</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/338/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Comisión directiva</h6>
-              <h5 class="nombre">María Dominguez Crivelli</h5>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/342/300/300" class="imagen-conocenos"></b-img>
-              <h6 class="cargo">Comisión directiva</h6>
-              <h5 class="nombre">Padre Manuel López Naón</h5>
-            </b-card-text>
-          </b-card>
-        </b-card-group>
-      </div>
-    </section>
-
-    <section class="section-style" style="margin-top:30px">
-      <h2 style="text-align:center; color:#BED546">Nuestra historia</h2>
-
-      <p>La Casa del niño Padre José Kentenich se fundó el 16 de Junio de 1985 como organización sin fines de lucro fruto del deseo de dar respuesta a la realidad de muchos niños del barrio San Nicolás de Florencio Varela, Provincia de Buenos Aires, Argentina. Se vio la necesidad de alejar a los chicos de los peligros de la calle para que encuentren un lugar de cobijamiento y puedan ser acompañados especialmente en un ambiente sano.</p>
-
-      <p>Desde sus inicios hasta hoy, animada y apoyada por el Movimiento Apostólico de Schoenstatt, la Casa del Niño desempeña un papel fundamental en la vida de muchos niños y sus propias familias.</p>
-
-      <p>De a poco, con mucho esfuerzo y ayuda, se logro edificar un lugar que les otorgara la oportunidad de crecer dignamente con proyección y sentido de vida.</p>
-      <p>Hoy se brinda espacio y apoyo a más de 300 chicos de entre 3 y 13 años de edad quienes provienen de familias con carencias. La realidad actual nos desafía a un trabajo de acompañamiento muy profundo, sostenido y transversal. Dicho trabajo requiere de recursos y profesionales intervinientes para poder asistir adecuadamente a los chicos. Niños que cargan con mochilas muy pesadas conforme su edad.</p>
-      <p>“…Una de las características comunes de estas familias cuyos niños asisten a la Casa del Niño es que la madre es sostén de hogar, en general los hijos tienen distintos padres que quedan periféricos, están ausentes y en ocasiones son desconocidos. Las familias son numerosas, muchas de las madres tienen poca capacidad de planificación por lo que les cuesta organizar la crianza, están desbordadas. En ocasiones abandonan temporalmente a los chicos dejándolos a cargo de abuelas, tíos o hermanos mayores… Muchos de los chicos viven en un ambiente de inestabilidad emocional: madres y padres que aparecen y desaparecen, maltrato, abusos perpetrados por familiares o personas cercanas. Son chicos que no son “mirados” en su ámbito familiar. La casa del Niño representa para ellos un refugio, un lugar donde no hay violencia, reciben afecto, son tenidos en cuenta. Un lugar donde pueden descansar de la responsabilidad de cuidar a un hermanito, donde son protegidos…” (Psicóloga voluntaria de Casa del Niño Padre José Kentenich/Licenciada Susana López Moreno, Matricula Nº 52726/ Informe realizado en visita a la Casa de fecha 15 de Mayo de 2019)</p>
-      <p>La Casa del Niño tiene como misión apoyar a los chicos en todos los aspectos. Brindarles alimentación, abrigo y apoyo acompañando a que cada pequeño se vislumbre como un ser único, especial, capaz de transformar su propia realidad, la de su familia, su barrio, su escuela, su club, su propio ambiente proyectando de este modo una vida plena de sentido.</p>
-      <p>Con el apoyo del Movimiento Apostólico de Schoenstatt, de a poco, con mucho esfuerzo y con la generosidad incondicional de mucha gente, se construyó esta casita, sin fines de lucro, que en este momento les da la oportunidad a 340 chiquitos entre 3 y 13 años de ayudarlos a crecer dignamente, enseñándoles, conteniéndolos, instruyéndolos, dándoles una segura comida diaria.</p>
-      <p>La Casa se fue agrandando. Hemos llegado a cumplir 25 años remodelándola, dentro de las posibilidades, para que los chicos puedan pasar el tiempo más confortable, gracias a la ayuda de la gente.</p>
-      <p>También contamos con la bendición de Nuestra Mater. Este año pudimos construir con materiales donados, una ermita para que proteja y ayude a todos los que habitan y colaboran con la Casa.</p>
-      <p>Así se fue agrandando nuestra casa con el lema “un niño en la Casa es un niño menos en la calle.”</p>
-    </section>
-
-    <section class="section-style" style="margin-top:30px">
       <h2 style="text-align:center; color:#BED546">Desafíos actuales</h2>
 
       <b-card no-body class="overflow-hidden" style="border:0px">
@@ -287,7 +211,7 @@
 </template>
 
 <script>
-import Loader from "./shared/Loader";
+import Loader from "../shared/Loader";
 
 import { Carousel, Slide } from "vue-carousel";
 
@@ -302,20 +226,16 @@ export default {
   },
   methods: {},
   computed: {
-    ...mapGetters(["categorias", "userLogged"])
+    
   },
   components: {
     Loader: Loader,
     Carousel,
     Slide
   },
-
-  mounted: function() {
-    if (this.userLogged.profile == "HIJO") {
-      this.classIndex = "index-kids";
-    }
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
+  mounted: function(){
+    const loader=document.querySelector(".loader");
+    loader.className+= " hidden";
   }
 };
 </script>
@@ -333,16 +253,19 @@ export default {
 }
 
 .cargo {
-  padding: 10px 0px 10px 5px;
+  padding: 0px 0px 0px 5px;
   margin: 0;
   font-size: 15px;
+  color:rgba(0, 0, 0, 0.5);
 }
 
 .nombre {
-  padding: 0px 0px 0px 5px;
+  padding: 10px 0px 5px 5px;
   margin: 0;
   font-size: 18px;
+  color:rgba(0, 0, 0, 1);
 }
+
 .miembros {
   padding: 10px;
   margin: 10px;

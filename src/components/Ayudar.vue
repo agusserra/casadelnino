@@ -20,16 +20,15 @@
       <div class="bienvenida">
         <h1 style="margin:0; padding:0">Quiero ayudar</h1>
       </div>
-      <h2 style="text-align:left; color:#BED546">¿Qué significa apoyar a la Casa del Niño?</h2>
+      <h3 style="text-align:left; color:#BED546">¿Qué significa apoyar a la Casa del Niño?</h3>
       <p>Apoyar a La Casa del Niño significa apostar por un hogar que reciba a todos los niños que lo necesitan. Queremos lograr que los niños se encuentren en un lugar sano alejados de los peligros de las calles, brindándoles las oportunidades y herramientas necesarias para su futuro.</p>
-      <h2 style="text-align:left; color:#BED546">¿Cómo hacemos para lograrlo?</h2>
+      <h3 style="text-align:left; color:#BED546">¿Cómo hacemos para lograrlo?</h3>
       <p>Para todos los proyectos, de cualquier índole, además de una visión y buena voluntad, se necesita dinero para afrontar los costos operativos.</p>
-      <h2 style="text-align:left; color:#BED546">¿Qué estamos buscando?</h2>
+      <h3 style="text-align:left; color:#BED546">¿Qué estamos buscando?</h3>
       <p>Buscamos personas que se comprometan a aportar una suma todos los meses para lograr que haya más niños en nuestro hogar y menos niños en las calles.</p>
 
-      <h5>Te invitamos a colaborar con nuestra organización.</h5>
-      <h5>Súmate a hacer comunidad.</h5>
-
+      <p style="margin-bottom: 0px; padding-bottom: 0px;">Te invitamos a colaborar con nuestra organización.</p>
+      <p>Súmate a hacer comunidad.</p>
       <h4>¡Gracias por tu ayuda!</h4>
     </section>
 
@@ -42,19 +41,22 @@
           <b-img src="public/images/site/padrino.jpg" fluid alt="Responsive image"></b-img>
         </div>
 
-        <h6>Te invitamos a apadrinar a un niño. Con tu donación nos acompañas para seguir brindándoles condiciones y oportunidades, mejorando la calidad de vida de estos niños.</h6>
-        <h6>A cada niño que apadrines podremos garantizarle el desayuno, almuerzo y merienda; Útiles escolares; Apoyo Escolar; Acompañamiento pedagógico y espiritual; Talleres de Lecto escritura.</h6>
-        <b-button variant="primary">
-          <h6>Quiero ayudar</h6>
-        </b-button>
+        <h6>Te invitamos a apadrinar a un niño. Con tu donación nos acompañás para seguir brindándoles condiciones y oportunidades, mejorando la calidad de vida de estos niños.</h6>
+        <h6>A cada niño que apadrines podremos garantizarle el desayuno, almuerzo y merienda; útiles escolares; apoyo escolar; acompañamiento pedagógico y espiritual; talleres de lecto-escritura.</h6>
+        <div style="width: 100%; margin: auto; text-align: center;">
+          <b-button variant="primary">
+            <h6>Quiero ayudar</h6>
+          </b-button>
+        </div>
       </div>
+      <p style="margin-bottom: 0px;"></p>
       <div class="bloque-ayuda">
         <h2 class="como-ayudar">Voluntario</h2>
 
         <div style="min-width:250px">
           <b-img src="public/images/site/voluntario.jpg" fluid alt="Responsive image"></b-img>
         </div>
-        <h5>Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad</h5>
+        <h6>Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad.</h6>
 
         <div style="padding:10px">
           <b-form-input v-model="nombre" placeholder="Tu nombre"></b-form-input>
@@ -67,9 +69,11 @@
         <div style="padding:10px">
           <b-form-textarea v-model="mensaje" placeholder="Mensaje"></b-form-textarea>
         </div>
-        <b-button variant="primary">
-          <h6>Enviar</h6>
-        </b-button>
+        <div style="width: 100%; margin: auto; text-align: center;">
+          <b-button variant="primary">
+            <h6>Enviar</h6>
+          </b-button>
+        </div>
       </div>
     </section>
   </section>
@@ -94,20 +98,16 @@ export default {
   },
   methods: {},
   computed: {
-    ...mapGetters(["categorias", "userLogged"])
+    
   },
   components: {
     Loader: Loader,
     Carousel,
     Slide
   },
-
-  mounted: function() {
-    if (this.userLogged.profile == "HIJO") {
-      this.classIndex = "index-kids";
-    }
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
+  mounted: function(){
+    const loader=document.querySelector(".loader");
+    loader.className+= " hidden";
   }
 };
 </script>
@@ -120,10 +120,12 @@ export default {
   padding: 15px;
 }
 .como-ayudar {
-  background: #2daae1;
+  background: rgb(244, 150, 76, 0.85);
   color: white;
-  margin: 20px;
+  margin: 10px;
+  padding: 5px 10px;
   position: absolute;
+  font-variant: normal;
 }
 .detalle-como-ayudar {
   background: white;

@@ -15,13 +15,13 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h5>Casa del Niño</h5>
-              <p>
+              <h5 style="padding-left: 10px; padding-bottom: 0px; margin: 0px;">Casa del Niño</h5>
+              <p style="margin: 0px;">
                 <b>Alvear 1306</b>
-                <br />(1887) Florencio Varela
+                <br />Florencio Varela (1887)
                 <br />Buenos Aires, Argentina
               </p>
-              <p>
+              <p style="margin: 0px; font-size: 18px;">
                 (+54 11) 4255-6776
                 <br />(+54 911) 4086-6932
               </p>
@@ -33,14 +33,14 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h5>Sede administrativa</h5>
+              <h5 style="padding-left: 10px; padding-bottom: 0px; margin: 0px;">Sede administrativa</h5>
 
-              <p>
-                <b>Riobamba 1050 2º</b>
-                <br />(1116) Capital Federal
+              <p style="margin: 0px;">
+                <b>Riobamba 1050</b>
+                <br />Capital Federal (1116)
                 <br />Argentina
               </p>
-              <p>
+              <p style="margin: 0px; font-size: 18px;">
                 (+54 11) 4816-3211
                 <br />
                 <b-icon-envelope-open style="margin-right:5px"></b-icon-envelope-open>info@casadelnino.org.ar
@@ -69,13 +69,7 @@ export default {
     usuario: ""
   },
   computed: {
-    ...mapGetters([])
-  },
-  methods: {},
-  created: function() {
-    if (this.userLogged.user) {
-      this.cantidadNotificaciones();
-    }
+    
   }
 };
 </script>

@@ -4,17 +4,14 @@
     <transition name="slide" mode="out-in">
       <router-view style="padding-bottom:100px"></router-view>
     </transition>
-
     <app-footer></app-footer>
   </div>
 </template>
 
-
-
 <script>
 import Header from "./components/Header.vue";
 import { mapGetters } from "vuex";
-import MyFooter from "./components/startPage/MyFooter";
+import Footer from "./components/Footer.vue";
 
 export default {
   data() {
@@ -24,10 +21,10 @@ export default {
   },
   components: {
     appHeader: Header,
-    appFooter: MyFooter
+    appFooter: Footer
   },
   computed: {
-    ...mapGetters(["categorias", "pathAPI", "userLogged", "counter"])
+    
   },
   methods: {
     buscarCategorias() {
@@ -49,19 +46,12 @@ export default {
         });
     }
   },
-  created: function() {
-    this.usuario.userLogged = this.userLogged;
-    this.buscarCategorias();
-    if (this.userLogged.profile == "HIJO") {
-      this.buscarPerfil();
-    }
-  }
 };
 </script>
 
 <style>
 .proyecto {
-  background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #f4964c 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 20%, #f4964c 100%);
   background-repeat: repeat;
   background-size: 100%;
   text-align: -webkit-center;
@@ -74,10 +64,8 @@ export default {
 .bienvenida {
   text-align: center;
   width: 100%;
-  color: rgba(0, 0, 0, 0.32);
+  color: rgba(0, 0, 0, 0.5);
   padding-bottom: 30px;
-}
-@media screen and (max-width: 600px) {
 }
 
 .primera-seccion {
@@ -90,9 +78,6 @@ export default {
   }
 }
 
-.separador {
-  margin: 100px;
-}
 .section-style {
   z-index: 1;
   max-width: 900px;
@@ -101,11 +86,12 @@ export default {
   padding: 40px;
   margin: auto;
   background: white;
-  border-radius: 1px;
+  border-radius: 5px;
   -webkit-box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
   box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
 }
+
 @media screen and (max-width: 600px) {
   .section-style {
     margin-top: -40px;
@@ -115,16 +101,6 @@ export default {
   }
 }
 
-.form-control {
-  border-radius: 10px;
-  height: 45px;
-  color: #2c1538;
-}
-
-label {
-  margin-bottom: 4px;
-  font-size: medium;
-}
 
 .categoria {
   margin: 10px;
@@ -154,12 +130,37 @@ h6 {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-variant: small-caps;
+  margin-bottom: 0px;
 }
+
 h1 {
   font-size: 40px;
+}
+
+h3 {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  color:#F4964C;
+}
+
+h6 {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.quote {
+  color:#2DAAE1;
+  font-size: 30px;
+  font-family: "Bree Serif", serif;
+  padding: 15px;
+  font-variant: normal;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 p,
@@ -167,7 +168,7 @@ li {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 30px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 19px;
   text-align: left;
 }
 

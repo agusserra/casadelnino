@@ -17,7 +17,7 @@ export default {
     return {};
   },
   computed: {
-    ...mapGetters(["userLogged"])
+    
   },
   components:{
     AnimationLoader: AnimationLoader

@@ -3,20 +3,18 @@
     <loader></loader>
     <app-inicial></app-inicial>
     <app-historia></app-historia>
-    <app-objetivo></app-objetivo>
     <app-vision-mision></app-vision-mision>
+    <app-objetivo></app-objetivo>
 
   </div>
 </template>
 
 <script>
 import Loader from "./shared/Loader";
-import Inicial from "../components/startPage/Inicial";
-import Historia from "../components/startPage/Historia";
-import Objetivo from "../components/startPage/Objetivo";
-import VisionMision from "../components/startPage/VisionMision";
-
-import { mapGetters } from "vuex";
+import Inicial from "../components/inicio/Inicial";
+import Historia from "../components/inicio/Historia";
+import VisionMision from "../components/inicio/VisionMision";
+import Objetivo from "../components/inicio/Objetivo";
 
 export default {
   name: "app",
@@ -27,7 +25,7 @@ export default {
   },
   methods: {},
   computed: {
-    ...mapGetters(["categorias", "userLogged"])
+    
   },
   components: {
     Loader: Loader,
@@ -36,13 +34,9 @@ export default {
     appObjetivo: Objetivo,
     appVisionMision: VisionMision,
   },
-
-  mounted: function() {
-    if (this.userLogged.profile == "HIJO") {
-      this.classIndex = "index-kids";
-    }
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
+  mounted: function(){
+    const loader=document.querySelector(".loader");
+    loader.className+= " hidden";
   }
 };
 </script>

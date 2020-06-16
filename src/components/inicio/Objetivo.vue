@@ -1,6 +1,6 @@
 <template>
   <section class="section-style" style="margin-top:30px">
-    <h2 style="text-align:center">Nuestro <a style="color:#BED546">objetivo</a></h2>
+    <h2 style="text-align:center; color: rgba(0, 0, 0, 0.7);">Nuestros <a style="color:#BED546">Objetivos</a></h2>
 
     <b-card no-body class="overflow-hidden" style="border:0px">
       <b-row no-gutters>
@@ -9,7 +9,7 @@
         </b-col>
         <b-col md="11">
           <b-card-body>
-            <b-card-text>Que la Casa sea un hogar con las puertas abiertas que reciba a todos, en especial a los niños más necesitados.</b-card-text>
+            <b-card-text>Que la casa sea un hogar con las puertas abiertas que reciba a todos, en especial a los niños más necesitados.</b-card-text>
           </b-card-body>
         </b-col>
       </b-row>
@@ -35,7 +35,7 @@
         </b-col>
         <b-col md="11">
           <b-card-body>
-            <b-card-text>Regalarles especial reconocimiento, contención y fortalecimiento de sus capacidades físicas, emocionales, intelectuales y espirituales</b-card-text>
+            <b-card-text>Regalarles especial reconocimiento, contención y fortalecimiento de sus capacidades físicas, emocionales, intelectuales y espirituales.</b-card-text>
           </b-card-body>
         </b-col>
       </b-row>
@@ -86,7 +86,9 @@ export default {
 <style scoped>
 .card-body {
   padding-top: 0px;
+  padding-bottom: 0px;
 }
+
 .icon-obj {
   width: 80px;
   height: 80px;
@@ -94,7 +96,7 @@ export default {
   padding: 10px;
 }
 .card {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {

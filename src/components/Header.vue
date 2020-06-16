@@ -9,7 +9,12 @@
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
-        <router-link to="/Conocenos" tag="b-nav-item">Conocenos</router-link>
+        <router-link to="/" tag="b-nav-item">Inicio</router-link>
+        <b-nav-item-dropdown text="Nosotros" right>
+          <router-link to="/Nosotros/Comision" tag="b-nav-item">Comisión directiva</router-link>
+          <router-link to="/Nosotros/Historia" tag="b-nav-item">Nuestra historia</router-link>
+          <router-link to="/Nosotros/Desafios" tag="b-nav-item">Nuestros desafíos</router-link>
+        </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Nuestros proyectos" right>
           <router-link to="/Proyectos/Escolar" tag="b-nav-item">Apoyo escolar</router-link>
           <router-link to="/Proyectos/Institucional" tag="b-nav-item">Apoyo institucional</router-link>
@@ -43,21 +48,10 @@ export default {
     usuario: ""
   },
   computed: {
-    ...mapGetters([
-      "categorias",
-      "userLogged",
-      "usuarioSeleccionado",
-      "pathAPI",
-      "counter"
-    ])
+    
   },
   methods: {
 
-  },
-  created: function() {
-    if (this.userLogged.user) {
-      this.cantidadNotificaciones();
-    }
   }
 };
 </script>
@@ -74,7 +68,7 @@ i {
 
 li{
   padding:0px;
-  line-height: 15px;
+  line-height: 20px;
   padding-left:10px;
 }
 

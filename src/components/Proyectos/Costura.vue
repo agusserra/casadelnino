@@ -51,20 +51,16 @@ export default {
   },
   methods: {},
   computed: {
-    ...mapGetters(["categorias", "userLogged"])
+    
   },
   components: {
     Loader: Loader,
     Carousel,
     Slide
   },
-
-  mounted: function() {
-    if (this.userLogged.profile == "HIJO") {
-      this.classIndex = "index-kids";
-    }
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
+  mounted: function(){
+    const loader=document.querySelector(".loader");
+    loader.className+= " hidden";
   }
 };
 </script>
