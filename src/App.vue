@@ -10,42 +10,18 @@
 
 <script>
 import Header from "./components/Header.vue";
-import { mapGetters } from "vuex";
 import Footer from "./components/Footer.vue";
 
 export default {
   data() {
-    return {
-      usuario: {}
-    };
+    return {};
   },
   components: {
     appHeader: Header,
     appFooter: Footer
   },
-  computed: {
-    
-  },
-  methods: {
-    buscarCategorias() {
-      fetch(this.pathAPI + "categorias.php?usuario=aplicacion")
-        .then(response => response.json())
-        .then(data => {
-          this.$store.state.categorias = [];
-          data.forEach(element => {
-            this.$store.state.categorias.push({
-              id: element.id_categoria,
-              nombre: element.descripcion,
-              imagen: element.imagen_categoria,
-              styleObject: { backgroundColor: element.color },
-              color: element.color.substr(1, 6),
-              video: element.link_video,
-              estado: element.estado
-            });
-          });
-        });
-    }
-  },
+  computed: {},
+  methods: {}
 };
 </script>
 
@@ -61,26 +37,37 @@ export default {
   z-index: -1;
 }
 
-.bienvenida {
+.titulo-principal {
   text-align: center;
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 30px;
 }
 
-.primera-seccion {
-  margin-top: -20% !important;
+.titulo-verde {
+  color: #61ce70;
 }
 
-@media screen and (max-width: 800px) {
-  .primera-seccion {
-    margin-top: -20px !important;
-  }
+.carousel-top {
+  filter: brightness(0.5);
+  text-shadow: 0px 0px 2px #000;
+  z-index:-1;
+  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
+}
+
+.primera-seccion {
+  margin-top: -20% !important;
+  z-index: 100;
+}
+
+.home-video {
+  margin-top: -40% !important;
+  z-index: 100;
 }
 
 .section-style {
   z-index: 1;
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 40px;
@@ -92,6 +79,16 @@ export default {
   box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
 }
 
+@media screen and (max-width: 1300px) {
+  .primera-seccion {
+    margin-top: -20px !important;
+  }
+
+  .section-style {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .section-style {
     margin-top: -40px;
@@ -101,24 +98,6 @@ export default {
   }
 }
 
-
-.categoria {
-  margin: 10px;
-  border-radius: 15px !important;
-  border: 0px !important;
-  width: 250px;
-  align-items: center;
-  transition: 0.2s;
-  z-index: 0;
-  cursor: pointer;
-}
-.categoria:hover {
-  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
-  transition: 0.2s;
-  transform: scaleX(1.05) scaleY(1.05);
-  z-index: 1;
-}
-
 h1,
 h2,
 h3,
@@ -126,17 +105,25 @@ h4,
 h5,
 h6 {
   font-family: "Bree Serif", serif;
+  color: #54595f;
   padding: 15px;
 }
 
 h1,
 h2 {
-  font-variant: small-caps;
   margin-bottom: 0px;
+  color: #666666;
 }
 
 h1 {
+  font-variant: small-caps;
   font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 h3 {
@@ -156,11 +143,16 @@ h6 {
 .quote {
   color:#2DAAE1;
   font-size: 30px;
-  font-family: "Bree Serif", serif;
-  padding: 15px;
+  font-family: "Roboto", "Bree Serif", serif;
+  padding: 0px;
   font-variant: normal;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: "Roboto", "Bree Serif", serif;
+  color: #888888;
 }
 
 p,
@@ -174,56 +166,6 @@ li {
 
 ul {
   text-align: left;
-}
-
-.alert-danger {
-  color: #721c24c7;
-  background-color: #ff00171a;
-  border-radius: 10px;
-}
-
-.boton-primario {
-  margin: 5px;
-  padding: 5px 20px;
-  border-radius: 20px !important;
-  border: 0px !important;
-  align-items: center;
-  transition: 0.2s;
-  cursor: pointer;
-  font-size: 20px;
-  background-color: #9546af;
-  font-family: "Patua One", cursive;
-  color: white;
-}
-.boton-primario:hover {
-  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
-  transition: 0.2s;
-  transform: scaleX(1.05) scaleY(1.05);
-  z-index: 1;
-  background-color: #dd3260;
-  color: white;
-}
-
-.boton-secundario {
-  margin: 5px;
-  padding: 5px 20px;
-  border-radius: 20px !important;
-  border: 0px !important;
-  align-items: center;
-  transition: 0.2s;
-  cursor: pointer;
-  font-size: 20px;
-  background-color: #757575;
-  font-family: "Patua One", cursive;
-  color: white;
-}
-.boton-secundario:hover {
-  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
-  transition: 0.2s;
-  transform: scaleX(1.05) scaleY(1.05);
-  z-index: 1;
-  background-color: #616161;
-  color: white;
 }
 
 .loader {
@@ -292,13 +234,6 @@ ul {
   }
 }
 
-.modal-arkidia {
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-  width: 600px;
-  min-height: 300px;
-}
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 25px;

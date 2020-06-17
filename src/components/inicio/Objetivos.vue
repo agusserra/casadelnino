@@ -1,6 +1,6 @@
 <template>
   <section class="section-style" style="margin-top:30px">
-    <h2 style="text-align:center; color: rgba(0, 0, 0, 0.7);">Nuestros <a style="color:#BED546">Objetivos</a></h2>
+    <h2 style="text-align: center;">Nuestros Objetivos</h2>
 
     <b-card no-body class="overflow-hidden" style="border:0px">
       <b-row no-gutters>

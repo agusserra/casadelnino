@@ -5,8 +5,7 @@
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
       <b-carousel
-        id="carousel-fade"
-        style="filter: brightness(0.5); text-shadow: 0px 0px 2px #000; z-index:-1;box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);"
+        class="carousel-top"
         fade
         img-width="1024"
         img-height="480"
@@ -17,8 +16,8 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="bienvenida">
-        <h1 style="margin:0; padding:0">Quiero ayudar</h1>
+      <div class="titulo-principal">
+        <h1>Quiero ayudar</h1>
       </div>
       <h3 style="text-align:left; color:#BED546">¿Qué significa apoyar a la Casa del Niño?</h3>
       <p>Apoyar a La Casa del Niño significa apostar por un hogar que reciba a todos los niños que lo necesitan. Queremos lograr que los niños se encuentren en un lugar sano alejados de los peligros de las calles, brindándoles las oportunidades y herramientas necesarias para su futuro.</p>
@@ -181,15 +180,6 @@ export default {
   height: 80px;
   color: #2daae1;
   padding: 10px;
-}
-.profile-background {
-  background-image: url(/public/images/site/profile-background.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {

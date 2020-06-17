@@ -1,11 +1,15 @@
 <template>
-  <section style="text-align:center">
-    <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
-      <b-carousel-slide img-src="public/images/site/portada1.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada2.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada3.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada4.jpg"></b-carousel-slide>
-    </b-carousel>
+  <section style="text-align:center; z-index: -10;">
+    <div style="height: 800px; overflow: hidden">
+    <div class="videoWrapper">
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/q4ohaua_zdE?autoplay=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&loop=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&enablejsapi=1&widgetid=1"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+    </div>
+    </div>
   </section>
 </template>
 
@@ -42,6 +46,22 @@ export default {
 </script>
 
 <style>
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 200px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .ingreso {
   margin: 30px;
   border-radius: 15px !important;

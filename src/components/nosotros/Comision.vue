@@ -5,8 +5,7 @@
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
       <b-carousel
-        id="carousel-fade"
-        style="filter: brightness(0.5); text-shadow: 0px 0px 2px #000; z-index:-1;box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);"
+        class="carousel-top"
         fade
         img-width="1024"
         img-height="480"
@@ -17,8 +16,8 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="bienvenida">
-        <h1 style="margin:0; padding:0">Comisión Directiva</h1>
+      <div class="titulo-principal">
+        <h1>Comisión Directiva</h1>
       </div>
       <div style="text-aling:center">
         <b-card-group style="place-content:center">
@@ -79,36 +78,29 @@
         <b-carousel-slide img-src="public/images/site/comision/comision2.jpg"></b-carousel-slide>
       </b-carousel>
     </section>
-
   </section>
 </template>
 
 <script>
 import Loader from "../shared/Loader";
-
 import { Carousel, Slide } from "vue-carousel";
-
-import { mapGetters } from "vuex";
 
 export default {
   name: "app",
   data() {
     return {
-      classIndex: ""
     };
   },
   methods: {},
-  computed: {
-    
-  },
+  computed: {},
   components: {
     Loader: Loader,
     Carousel,
     Slide
   },
-  mounted: function(){
-    const loader=document.querySelector(".loader");
-    loader.className+= " hidden";
+  mounted: function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
   }
 };
 </script>
@@ -125,18 +117,18 @@ export default {
   transition: filter 0.5s;
 }
 
-.cargo {
-  padding: 0px 0px 0px 5px;
-  margin: 0;
-  font-size: 15px;
-  color:rgba(0, 0, 0, 0.5);
-}
-
 .nombre {
   padding: 10px 0px 5px 5px;
   margin: 0;
   font-size: 18px;
-  color:rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.cargo {
+  padding: 0px 0px 0px 5px;
+  margin: 0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .miembros {
@@ -148,9 +140,6 @@ export default {
   border: 0px;
 }
 
-.apoyo {
-  min-width: 300px;
-}
 .conocenos {
   background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #bcd446 100%);
   background-repeat: repeat;
@@ -160,26 +149,5 @@ export default {
   position: relative;
   width: 100%;
   z-index: -1;
-}
-.icon-obj {
-  width: 80px;
-  height: 80px;
-  color: #2daae1;
-  padding: 10px;
-}
-.profile-background {
-  background-image: url(/public/images/site/profile-background.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
-}
-
-@media screen and (max-width: 600px) {
-  .apoyo {
-    min-width: 200px;
-  }
 }
 </style>

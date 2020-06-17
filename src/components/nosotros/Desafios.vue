@@ -1,12 +1,11 @@
 <template>
-  <section class="conocenos" style="z-index:0">
+  <section class="principal" style="z-index:0">
     <loader></loader>
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
       <b-carousel
-        id="carousel-fade"
-        style="filter: brightness(0.5); text-shadow: 0px 0px 2px #000; z-index:-1;box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);"
+        class="carousel-top"
         fade
         img-width="1024"
         img-height="480"
@@ -17,7 +16,9 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <h2 style="text-align:center; color:#BED546">Desafíos actuales</h2>
+      <div class="titulo-principal">
+        <h1>Desafíos actuales</h1>
+      </div>
 
       <b-card no-body class="overflow-hidden" style="border:0px">
         <b-row no-gutters>
@@ -212,73 +213,32 @@
 
 <script>
 import Loader from "../shared/Loader";
-
 import { Carousel, Slide } from "vue-carousel";
-
-import { mapGetters } from "vuex";
 
 export default {
   name: "app",
   data() {
-    return {
-      classIndex: ""
-    };
+    return {};
   },
   methods: {},
-  computed: {
-    
-  },
+  computed: {},
   components: {
     Loader: Loader,
     Carousel,
     Slide
   },
-  mounted: function(){
-    const loader=document.querySelector(".loader");
-    loader.className+= " hidden";
+  mounted: function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
   }
 };
 </script>
 
 <style scope>
-.imagen-conocenos {
-  width: 100%;
-  filter: grayscale(0.8);
-  border-radius: 5px;
-}
-
-.imagen-conocenos:hover {
-  filter: grayscale(0.1);
-  transition: filter 0.5s;
-}
-
-.cargo {
-  padding: 0px 0px 0px 5px;
-  margin: 0;
-  font-size: 15px;
-  color:rgba(0, 0, 0, 0.5);
-}
-
-.nombre {
-  padding: 10px 0px 5px 5px;
-  margin: 0;
-  font-size: 18px;
-  color:rgba(0, 0, 0, 1);
-}
-
-.miembros {
-  padding: 10px;
-  margin: 10px;
-  min-width: 180px;
-  max-width: 180px;
-  width: 200px !important;
-  border: 0px;
-}
-
 .apoyo {
   min-width: 300px;
 }
-.conocenos {
+.principal {
   background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #bcd446 100%);
   background-repeat: repeat;
   background-size: 100%;
@@ -293,15 +253,6 @@ export default {
   height: 80px;
   color: #2daae1;
   padding: 10px;
-}
-.profile-background {
-  background-image: url(/public/images/site/profile-background.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
