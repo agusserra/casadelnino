@@ -26,8 +26,11 @@ export default {
 </script>
 
 <style>
+b{
+  font-weight: 600;
+}
 .proyecto {
-  background: linear-gradient(180deg, rgb(255, 255, 255) 20%, #f4964c 100%);
+  background: linear-gradient(180deg, #f4964c 40%, #ffffff 100%);
   background-repeat: repeat;
   background-size: 100%;
   text-align: -webkit-center;
@@ -45,13 +48,16 @@ export default {
 }
 
 .titulo-verde {
-  color: #61ce70;
+  color: #bcd446;
+  font-size:60px;
+    text-align: center;
+
 }
 
 .carousel-top {
   filter: brightness(0.5);
   text-shadow: 0px 0px 2px #000;
-  z-index:-1;
+  z-index: -1;
   box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
 }
 
@@ -67,10 +73,10 @@ export default {
 
 .section-style {
   z-index: 1;
-  max-width: 1200px;
+  max-width: 900px;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 40px;
+  padding: 40px 80px;
   margin: auto;
   background: white;
   border-radius: 5px;
@@ -94,8 +100,13 @@ export default {
     margin-top: -40px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 20px;
+  padding: 20px 40px;
+
   }
+
+  .titulo-verde {
+  font-size:35px;
+}
 }
 
 h1,
@@ -104,7 +115,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bree Serif", serif;
+font-family: 'Raleway', sans-serif;
   color: #54595f;
   padding: 15px;
 }
@@ -116,14 +127,9 @@ h2 {
 }
 
 h1 {
-  font-variant: small-caps;
   font-size: 40px;
   margin: 0;
   padding: 0;
-}
-
-h2 {
-  text-transform: uppercase;
 }
 
 h3 {
@@ -132,7 +138,7 @@ h3 {
 }
 
 h5 {
-  color:#F4964C;
+  color: #f4964c;
 }
 
 h6 {
@@ -141,26 +147,24 @@ h6 {
 }
 
 .quote {
-  color:#2DAAE1;
+  color: #2daae1;
   font-size: 30px;
-  font-family: "Roboto", "Bree Serif", serif;
-  padding: 0px;
+font-family: 'Raleway', sans-serif;  padding: 0px;
   font-variant: normal;
   text-align: center;
   margin-bottom: 16px;
 }
 
 p {
-  font-family: "Roboto", "Bree Serif", serif;
+font-family: 'Raleway', sans-serif;
   color: #888888;
 }
 
 p,
 li {
-  font-family: "Source Sans Pro", sans-serif;
-  line-height: 30px;
+font-family: 'Raleway', sans-serif;  line-height: 30px;
   padding: 10px;
-  font-size: 19px;
+  font-size: 17px;
   text-align: left;
 }
 

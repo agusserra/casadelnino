@@ -10,12 +10,12 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <router-link to="/" tag="b-nav-item">Inicio</router-link>
-        <b-nav-item-dropdown text="Nosotros" right>
+        <b-nav-item-dropdown text="Conocenos" right>
           <router-link to="/Nosotros/Comision" tag="b-nav-item">Comisión directiva</router-link>
           <router-link to="/Nosotros/Historia" tag="b-nav-item">Nuestra historia</router-link>
           <router-link to="/Nosotros/Desafios" tag="b-nav-item">Nuestros desafíos</router-link>
         </b-nav-item-dropdown>
-        <b-nav-item-dropdown text="Nuestros proyectos" right>
+        <b-nav-item-dropdown text="Actividades" right>
           <router-link to="/Proyectos/Escolar" tag="b-nav-item">Apoyo escolar</router-link>
           <router-link to="/Proyectos/Institucional" tag="b-nav-item">Apoyo institucional</router-link>
           <router-link to="/Proyectos/Pintura" tag="b-nav-item">Taller de pintura</router-link>
@@ -26,7 +26,12 @@
           <router-link to="/Proyectos/Deporte" tag="b-nav-item">Educación física</router-link>
           <router-link to="/Proyectos/Pastoral" tag="b-nav-item">Área pastoral</router-link>
         </b-nav-item-dropdown>
-        <router-link to="/QuieroAyudar" tag="b-nav-item" > <a style="color=#2DAAE1">Quiero ayudar</a></router-link>
+        <router-link to="/QuieroAyudar" tag="b-nav-item">
+          <a class="quiero-ayudar">Quiero ayudar</a>
+        </router-link>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-youtube-play"></a>
+<a href="#" class="fa fa-instagram"></a>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -47,17 +52,30 @@ export default {
   props: {
     usuario: ""
   },
-  computed: {
-    
-  },
-  methods: {
-
-  }
+  computed: {},
+  methods: {}
 };
 </script>
 
 
 <style scoped>
+.quiero-ayudar{
+  text-decoration: none;
+    color: white;
+    background-color:#2ca9e1;;
+    padding:5px 10px;
+    border-radius: 5px;
+
+}
+
+.fa{
+  padding:10px;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .menu-style {
   background: #ffffff;
 }
@@ -66,13 +84,11 @@ i {
   cursor: pointer;
 }
 
-li{
-  padding:0px;
+li {
+  padding: 0px;
   line-height: 20px;
-  padding-left:10px;
+  padding-left: 10px;
 }
-
-
 
 .web-version {
   display: block;

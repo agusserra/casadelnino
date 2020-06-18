@@ -8,8 +8,10 @@
               <h1>Quiero ayudar</h1>
               <b-icon-heart-fill style="width:80px; height:80px; text-align:center; color: #F4964C"></b-icon-heart-fill>
             </b-col>
+
           </b-row>
         </router-link>
+
       </b-card>
       <b-card no-body class="overflow-hidden card-footer" style="border:0px">
         <b-row no-gutters>
