@@ -62,7 +62,7 @@ export default {
 .quiero-ayudar{
   text-decoration: none;
     color: white;
-    background-color:#2ca9e1;;
+    background-color:#2ca9e1;
     padding:5px 10px;
     border-radius: 5px;
 

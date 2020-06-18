@@ -50,8 +50,16 @@ b{
 .titulo-verde {
   color: #bcd446;
   font-size:60px;
-    text-align: center;
+  text-align: center;
 
+}
+
+.font-verde {
+  color: #bcd446;
+}
+
+.font-blanco {
+  color: #fff;
 }
 
 .carousel-top {
@@ -164,7 +172,7 @@ p,
 li {
 font-family: 'Raleway', sans-serif;  line-height: 30px;
   padding: 10px;
-  font-size: 17px;
+  font-size: 18px;
   text-align: left;
 }
 

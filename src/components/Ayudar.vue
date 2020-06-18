@@ -19,11 +19,11 @@
       <div class="titulo-principal">
         <h1>Quiero ayudar</h1>
       </div>
-      <h3 style="text-align:left; color:#BED546">¿Qué significa apoyar a la Casa del Niño?</h3>
+      <h3 class="font-verde" style="text-align:left;">¿Qué significa apoyar a la Casa del Niño?</h3>
       <p>Apoyar a La Casa del Niño significa apostar por un hogar que reciba a todos los niños que lo necesitan. Queremos lograr que los niños se encuentren en un lugar sano alejados de los peligros de las calles, brindándoles las oportunidades y herramientas necesarias para su futuro.</p>
-      <h3 style="text-align:left; color:#BED546">¿Cómo hacemos para lograrlo?</h3>
+      <h3 class="font-verde" style="text-align:left;">¿Cómo hacemos para lograrlo?</h3>
       <p>Para todos los proyectos, de cualquier índole, además de una visión y buena voluntad, se necesita dinero para afrontar los costos operativos.</p>
-      <h3 style="text-align:left; color:#BED546">¿Qué estamos buscando?</h3>
+      <h3 class="font-verde" style="text-align:left;">¿Qué estamos buscando?</h3>
       <p>Buscamos personas que se comprometan a aportar una suma todos los meses para lograr que haya más niños en nuestro hogar y menos niños en las calles.</p>
 
       <p style="margin-bottom: 0px; padding-bottom: 0px;">Te invitamos a colaborar con nuestra organización.</p>
@@ -32,7 +32,7 @@
     </section>
 
     <section class="section-style" style="margin-top:30px">
-      <h2 style="text-align:left; color:#BED546">¿Cómo ayudar?</h2>
+      <h2 class="font-verde" style="text-align:left;">¿Cómo ayudar?</h2>
 
       <div class="bloque-ayuda">
         <h2 class="como-ayudar">Padrino / Madrina</h2>
@@ -43,8 +43,8 @@
         <h6>Te invitamos a apadrinar a un niño. Con tu donación nos acompañás para seguir brindándoles condiciones y oportunidades, mejorando la calidad de vida de estos niños.</h6>
         <h6>A cada niño que apadrines podremos garantizarle el desayuno, almuerzo y merienda; útiles escolares; apoyo escolar; acompañamiento pedagógico y espiritual; talleres de lecto-escritura.</h6>
         <div style="width: 100%; margin: auto; text-align: center;">
-          <b-button variant="primary">
-            <h6>Quiero ayudar</h6>
+          <b-button variant="primary" class="button">
+            <h6 class="font-blanco"><b>Quiero ayudar</b></h6>
           </b-button>
         </div>
       </div>
@@ -69,8 +69,8 @@
           <b-form-textarea v-model="mensaje" placeholder="Mensaje"></b-form-textarea>
         </div>
         <div style="width: 100%; margin: auto; text-align: center;">
-          <b-button variant="primary">
-            <h6>Enviar</h6>
+          <b-button variant="primary" class="button">
+            <h6 class="font-blanco"><b>Enviar</b></h6>
           </b-button>
         </div>
       </div>
@@ -80,10 +80,7 @@
 
 <script>
 import Loader from "./shared/Loader";
-
 import { Carousel, Slide } from "vue-carousel";
-
-import { mapGetters } from "vuex";
 
 export default {
   name: "app",
@@ -112,6 +109,15 @@ export default {
 </script>
 
 <style scope>
+.button {
+  text-decoration: none;
+    color: white;
+    background-color: #2ca9e1;
+    padding:5px 10px;
+    border-radius: 5px;
+
+}
+
 .bloque-ayuda {
   background: #eeeeee;
   border-radius: 5px;
@@ -140,26 +146,6 @@ export default {
 .imagen-conocenos:hover {
   filter: grayscale(0.1);
   transition: filter 0.5s;
-}
-
-.cargo {
-  padding: 10px 0px 10px 5px;
-  margin: 0;
-  font-size: 15px;
-}
-
-.nombre {
-  padding: 0px 0px 0px 5px;
-  margin: 0;
-  font-size: 18px;
-}
-.miembros {
-  padding: 10px;
-  margin: 10px;
-  min-width: 180px;
-  max-width: 180px;
-  width: 200px !important;
-  border: 0px;
 }
 
 .apoyo {
