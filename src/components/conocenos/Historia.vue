@@ -10,7 +10,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style margenes primera-seccion">
       <div class="titulo-principal">
         <h1>
           Nuestra
@@ -103,13 +103,13 @@ export default {
 
 .video-container {
   position: relative;
-  width: 90%;
+  width: 100%;
   padding-bottom: 50.25%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
   height: 0;
-  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
+  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.1);
 }
 .video-container iframe {
   position: absolute;

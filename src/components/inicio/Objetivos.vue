@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style" style="margin-top:30px">
+  <section class="section-style margenes" style="margin-top:30px">
     <h2 style="text-align: center;">Nuestros Objetivos</h2>
 
     <b-card no-body class="overflow-hidden" style="border:0px">
@@ -103,10 +103,6 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-  .logo-inicio {
-    width: 80%;
-    margin: 20px;
-  }
 .centrar{
   text-align:center;
 }

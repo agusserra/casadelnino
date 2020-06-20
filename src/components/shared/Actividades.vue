@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style" style="margin-top:30px">
+  <section class="section-style margenes " style="margin-top:30px">
     <h2>Conocé nuestras actividades</h2>
 
     <b-card-group deck style="justify-content:center">

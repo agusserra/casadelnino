@@ -33,7 +33,7 @@ b {
 .inicio {
   background: linear-gradient(
     180deg,
-    rgba(44, 169, 225)  40%,
+    rgba(44, 169, 225) 40%,
     rgba(44, 168, 225, 0.192) 100%
   );
   background-repeat: repeat;
@@ -83,6 +83,11 @@ b {
   color: #bcd446;
 }
 
+.font-celeste {
+  color: #2daae1;
+
+}
+
 .font-blanco {
   color: #fff;
 }
@@ -104,10 +109,13 @@ b {
   z-index: 100;
 }
 
+.margenes {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .section-style {
   z-index: 1;
-  margin-left: 20%;
-  margin-right: 20%;
   padding: 40px 80px;
   background: white;
   border-radius: 5px;
@@ -117,29 +125,31 @@ b {
 }
 
 @media screen and (max-width: 1800px) {
-  .section-style {
+  .margenes {
     margin-left: 15%;
     margin-right: 15%;
   }
 }
 
 @media screen and (max-width: 1300px) {
-  .primera-seccion {
-    margin-top: -20px !important;
-  }
-
-  .section-style {
-    max-width: 90%;
+  .margenes {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .primera-seccion {
+    margin-top: -20px !important;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .section-style {
-    margin-top: -40px;
+  .margenes {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .section-style {
+    margin-top: -40px;
     padding: 20px 40px;
   }
 

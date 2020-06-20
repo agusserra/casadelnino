@@ -12,7 +12,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion" >
+    <section class="section-style margenes primera-seccion" >
       <div class="titulo-principal">
         <h1>Apoyo <span class="titulo-verde">Institucional</span></h1>
       </div>

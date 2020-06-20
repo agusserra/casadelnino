@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style primera-seccion">
+  <section class="section-style margenes primera-seccion">
     <div class="titulo-principal">
       <h1>Bienvenidos a</h1>
 

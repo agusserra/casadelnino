@@ -10,7 +10,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style margenes  primera-seccion">
       <div class="titulo-principal">
         <h1>
           Quiero
@@ -31,7 +31,7 @@
       <h4>¡Gracias por tu ayuda!</h4>
     </section>
 
-    <section class="section-style" style="margin-top:30px">
+    <section class="section-style margenes " style="margin-top:30px">
       <h2 class="titulo-verde">¿Cómo ayudar?</h2>
 
       <div class="bloque-ayuda">

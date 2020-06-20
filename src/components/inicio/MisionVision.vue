@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style" style="margin-top:30px">
+  <section class="section-style margenes" style="margin-top:30px">
     <b-card-group deck>
       <b-card no-body class="overflow-hidden" style="border:0px">
         <b-row no-gutters>

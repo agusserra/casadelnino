@@ -1,7 +1,7 @@
 <template>
-  <b-navbar toggleable="lg" type="light" style=" margin-right:10%; margin-left:10%" id="inicio">
+  <b-navbar toggleable="xl" type="light" class="margenes" id="inicio">
     <router-link to="/" class="navbar-brand">
-      <img src="public/images/site/logo.svg" height="60px" alt="Casa del Niño" style="padding:5px" />
+      <img src="public/images/site/logo.svg" height="70px" alt="Casa del Niño" style="padding:5px" />
     </router-link>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -27,7 +27,7 @@
           <router-link to="/Actividades/Pastoral" tag="b-dropdown-item">Área pastoral</router-link>
         </b-nav-item-dropdown>
         <router-link to="/QuieroAyudar" tag="b-nav-item">
-          <a class="quiero-ayudar">Quiero ayudar</a>
+          <a class="quiero-ayudar">Ayudar</a>
         </router-link>
         <div>
           <a href="https://www.facebook.com/CasaDelNinoPJK" class="fa fa-facebook" target="_blank"></a>

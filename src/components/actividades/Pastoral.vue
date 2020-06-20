@@ -9,7 +9,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion" >
+    <section class="section-style margenes  primera-seccion" >
       <div class="titulo-principal">
         <h1>
           Área
@@ -25,7 +25,7 @@
       </p>
     </section>
 
-    <section class="section-style" style="margin-top:30px">
+    <section class="section-style margenes " style="margin-top:30px">
       <b-carousel style="z-index:2" id="carousel-fade2" img-height="300">
         <b-carousel-slide img-src="public/images/site/pastoral/pastoral1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pastoral/pastoral2.jpg"></b-carousel-slide>

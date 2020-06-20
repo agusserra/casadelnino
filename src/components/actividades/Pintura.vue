@@ -9,7 +9,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion" >
+    <section class="section-style margenes  primera-seccion" >
       <div class="titulo-principal">
         <h1>
           Taller de
@@ -38,7 +38,7 @@
       </p>
     </section>
 
-    <section class="section-style" style="margin-top:30px">
+    <section class="section-style margenes " style="margin-top:30px">
       <b-carousel id="carousel-fade" :interval="4000" controls fade img-height="300">
         <b-carousel-slide img-src="public/images/site/pintura/pintura1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pintura/pintura2.jpg"></b-carousel-slide>

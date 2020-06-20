@@ -1,5 +1,5 @@
 <template>
-  <section class="conocenos"  style="z-index:0">
+  <section class="conocenos" style="z-index:0">
     <loader></loader>
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
@@ -10,7 +10,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style margenes primera-seccion">
       <div class="titulo-principal">
         <h1>
           <span class="titulo-verde">Desafíos</span> actuales
@@ -70,75 +70,74 @@
       </b-card>
     </section>
 
-    <section class="section-style" style="margin-top:30px">
-      <b-card-group deck>
-        <b-card no-body class="overflow-hidden" style="border:0px">
-          <b-row no-gutters>
-            <b-col>
-              <b-card-body>
-                <h2>
-                  <a style="color:#BED546">
-                    <b-icon-clock-fill style="padding:5px"></b-icon-clock-fill>Horarios
-                  </a>
-                </h2>
-                <b-card-text>
-                  <p>
-                    Funciona como contraturno de la escuela en dos momentos del día:
-                    <br />Turno mañana: de 8 a 12 h
-                    <br />Turno tarde: de 13 a 17 h
-                  </p>
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-        <b-card no-body class="overflow-hidden" style="border:0px">
-          <b-row no-gutters>
-            <b-col>
-              <b-card-body>
-                <h2>
-                  <a style="color:#BED546">
-                    <b-icon-file-earmark-check style="padding:5px"></b-icon-file-earmark-check>Requisitos
-                  </a>
-                </h2>
-                <b-card-text>
-                  <p>
-                    Tener entre 3 y 13 años de edad.
-                    <br />Estar escolarizados.
-                    <br />Presentar el Plan de Vacunación.
-                  </p>
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-        <b-card no-body class="overflow-hidden" style="border:0px">
-          <b-row no-gutters>
-            <b-col>
-              <b-card-body>
-                <h2>
-                  <a style="color:#BED546">Cómo trabajamos</a>
-                </h2>
-                <b-card-text>
-                  <p>La casa alberga a casi 300 niños de Florencio Varela y alrededores los cuales se dividen en cuatro grupos, cada uno con su orientador por turno:</p>
+    <section class="section-style margenes" style="margin-top:30px">
+      <div>
+        <b-card-group deck style="place-content:center;">
+          <b-card no-body style="max-width: 20rem;" class="caja mb-2">
+            <b-card-text>
+              <h4 class="font-celeste" style="font-weight: bolder; padding: 0px;">Horarios</h4>
+              <p
+                style="margin-bottom: 0px; padding: 0px 0px 10px 0px;"
+              >Funciona como contraturno de la escuela en dos turnos:</p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Turno
+                <b>mañana</b>: 8 a 12 hs
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Turno
+                <b>tarde</b>: 13 a 17 hs
+              </p>
+            </b-card-text>
+          </b-card>
 
-                  <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo JARDÍN de 3 a 5 años
-                  <br />
-                  <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo MEDIANITOS de 6 y 7 años
-                  <br />
-                  <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo MEDIANOS 8 y 9 años
-                  <br />
-                  <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo GRANDES 10 A 13 años
-                  <br />
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-      </b-card-group>
-    </section>
+          <b-card no-body style="max-width: 20rem;" class="caja mb-2">
+            <b-card-text>
+              <h4 class="font-celeste" style="font-weight: bolder; padding: 0px;">Requisitos</h4>
+              <p
+                style="margin-bottom: 0px; padding: 0px 0px 10px 0px;"
+              >Se requiere que los chicos:</p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Tengan entre 3 y 13 años
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Esten escolarizados
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Presenten plan de vacunación
+              </p>
+            </b-card-text>
+          </b-card>
 
-    <section class="section-style" style="margin-top:30px">
+          <b-card no-body style="max-width: 20rem;" class="caja font-celeste mb-2">
+            <b-card-text>
+              <h4 class="font-celeste" style="font-weight: bolder; padding: 0px;">Grupos</h4>
+              <p
+                style="margin-bottom: 0px; padding: 0px 0px 10px 0px;"
+              >Se dividen en 4 grupos:</p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Grupo
+                <b>jardín</b>: 3 a 5 años
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo
+                <b>medianitos</b>; 6 y 7 años
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo
+                <b>medianos</b>: 8 y 9 años
+              </p>
+              <p style="margin-bottom: 0px; padding: 0px;">
+                <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Grupo
+                <b>grandes</b>: 10 a 13 años
+              </p>
+            </b-card-text>
+          </b-card>
+        </b-card-group>
+      </div>
+      </section>
+    
+
+    <section class="section-style margenes" style="margin-top:30px">
       <h2 style="text-align:center; color:#BED546">Brindamos las 3 "A"</h2>
 
       <b-card-group deck>
@@ -232,6 +231,15 @@ export default {
 </script>
 
 <style scope>
+.caja {
+  border-radius: 0;
+  padding: 10px;
+  margin: 10px;
+  min-width: 180px;
+  max-width: 180px;
+  border: 2px solid #2daae1;
+  background-color: rgb(255, 255, 255) 30%, #bcd446 100%;
+}
 .apoyo {
   min-width: 300px;
 }
