@@ -8,11 +8,10 @@
         path:'/actividades/Escolar',
         hash:'#inicio'
         }"
-        tag="b-card"
-        no-body
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Apoyo escolar</h5>
+        <h5 class="titulo-actividad">Apoyo escolar</h5>
         <b-img src="public/images/site/escolar.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -21,11 +20,10 @@
         path:'/actividades/Institucional',
         hash:'#inicio'
         }"
-        tag="b-card"
-        no-body
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Apoyo institucional</h5>
+        <h5 class="titulo-actividad">Apoyo institucional</h5>
         <b-img src="public/images/site/institucional.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -34,10 +32,10 @@
         path:'/actividades/Pintura',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Taller de pintura</h5>
+        <h5 class="titulo-actividad">Taller de pintura</h5>
         <b-img src="public/images/site/pintura.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -46,10 +44,10 @@
         path:'/actividades/Huerta',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Taller de Huerta</h5>
+        <h5 class="titulo-actividad">Taller de Huerta</h5>
         <b-img src="public/images/site/huerta.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -58,10 +56,10 @@
         path:'/actividades/Manualidades',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Manualidades</h5>
+        <h5 class="titulo-actividad">Manualidades</h5>
         <b-img src="public/images/site/manualidades.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -70,10 +68,10 @@
         path:'/actividades/Costura',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Taller de Costura</h5>
+        <h5 class="titulo-actividad">Taller de Costura</h5>
         <b-img src="public/images/site/costura.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -82,10 +80,10 @@
         path:'/actividades/Teatro',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Taller de Teatro</h5>
+        <h5 class="titulo-actividad">Taller de Teatro</h5>
         <b-img src="public/images/site/teatro.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -94,10 +92,10 @@
         path:'/actividades/Deporte',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Deportes</h5>
+        <h5 class="titulo-actividad">Deportes</h5>
         <b-img src="public/images/site/deporte.jpg" class="imagen-actividades"></b-img>
       </router-link>
 
@@ -106,10 +104,10 @@
         path:'/actividades/Pastoral',
         hash:'#inicio'
         }"
-        tag="b-card"
+        tag="div"
         class="overflow-hidden actividades"
       >
-        <h5 style="text-align: center;">Área pastoral</h5>
+        <h5 class="titulo-actividad">Área pastoral</h5>
         <b-img src="public/images/site/pastoral.jpg" class="imagen-actividades"></b-img>
       </router-link>
     </b-card-group>
@@ -130,11 +128,15 @@ export default {
 </script>
 
 <style scoped>
+.titulo-actividad {
+  padding: 0px 10px;
+}
+
 .actividades {
   min-width: 250px;
   max-width: 250px;
-  margin: 10px;
-  padding: 0px !important;
+  margin: 10px 20px;
+  padding:10px;
   border: 0;
 }
 .imagen-actividades {

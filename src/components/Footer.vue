@@ -1,21 +1,23 @@
 <template>
-  <section style=" width:100%; padding-top:100px; background:grey">
+  <section class="footer">
     <b-card-group deck class="deck-footer">
       <b-card no-body class="overflow-hidden card-footer" style="border:0px; ">
-        <router-link         :to="{
+        <router-link
+          :to="{
         path:'/QuieroAyudar',
         hash:'#inicio'
-        }" style="cursor:pointer; text-align:center" tag="div">
+        }"
+          style="cursor:pointer; text-align:center"
+          tag="div"
+        >
           <b-row no-gutters>
             <b-col md="12">
               <h1>Quiero ayudar</h1>
               <p></p>
               <b-icon-heart-fill style="width:80px; height:80px; text-align:center; color: #F4964C"></b-icon-heart-fill>
             </b-col>
-
           </b-row>
         </router-link>
-
       </b-card>
       <b-card no-body class="overflow-hidden card-footer" style="border:0px">
         <b-row no-gutters>
@@ -60,7 +62,6 @@
 </template>
 
 <script>
-
 export default {
   name: "app",
   data() {
@@ -73,18 +74,27 @@ export default {
   props: {
     usuario: ""
   },
-  computed: {
-    
-  }
+  computed: {}
 };
 </script>
 
 
 <style scoped>
+.footer {
+  width: 100%;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.479);
+  -webkit-box-shadow: -1px 23px 33px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -1px 23px 33px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: -1px 23px 33px -4px rgba(0, 0, 0, 0.38);
+}
+
 .deck-footer {
-  margin: auto;
+  justify-content: center;
   margin-top: -100px;
-  max-width: 900px;
+  margin-left: 10%;
+  margin-right: 10%;
+
   padding-bottom: 10px;
 }
 .card-body {
@@ -93,9 +103,10 @@ export default {
 
 .card-footer {
   margin-top: -50px !important;
+  margin-bottom:30px;
   padding-bottom: 0px;
-  max-width: 270px !important;
-  min-width: 270px;
+  max-width: 280px !important;
+  min-width: 280px;
   border-radius: 2px;
   background: #ffffff;
   -webkit-box-shadow: -1px 23px 33px -4px rgba(0, 0, 0, 0.38);

@@ -140,14 +140,5 @@ export default {
   border: 0px;
 }
 
-.conocenos {
-  background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #bcd446 100%);
-  background-repeat: repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
-  z-index: -1;
-}
+
 </style>

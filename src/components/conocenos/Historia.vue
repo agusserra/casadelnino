@@ -1,5 +1,5 @@
 <template>
-  <section class="principal" style="z-index:0">
+  <section class="conocenos"  style="z-index:0">
     <loader></loader>
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "

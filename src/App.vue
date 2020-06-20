@@ -1,7 +1,7 @@
 <template>
   <div style="height:0">
     <app-header></app-header>
-    <transition name="slide" mode="out-in" >
+    <transition name="slide" mode="out-in">
       <router-view style="padding-bottom:100px"></router-view>
     </transition>
     <app-footer></app-footer>
@@ -29,8 +29,34 @@ export default {
 b {
   font-weight: 600;
 }
+
+.inicio {
+  background: linear-gradient(
+    180deg,
+    rgba(44, 169, 225)  40%,
+    rgba(44, 168, 225, 0.192) 100%
+  );
+  background-repeat: repeat;
+  background-size: 100%;
+  text-align: -webkit-center;
+  display: table;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
 .proyecto {
-  background: linear-gradient(180deg, #f4964c 40%, #ffffff 100%);
+  background: linear-gradient(180deg, #f78731 40%, #f787316b 100%);
+  background-repeat: repeat;
+  background-size: 100%;
+  text-align: -webkit-center;
+  display: table;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+.conocenos {
+  background: linear-gradient(180deg, #bcd446 40%, #bcd44671 100%);
   background-repeat: repeat;
   background-size: 100%;
   text-align: -webkit-center;
@@ -240,7 +266,6 @@ ul {
 @keyframes slide-in {
   from {
     opacity: 0;
-
   }
   to {
     opacity: 1;

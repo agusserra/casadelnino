@@ -37,18 +37,5 @@ export default {
 </script>
 
 <style>
-.inicio {
-  background: linear-gradient(
-    180deg,
-    rgb(255, 255, 255) 20%,
-    rgba(44, 169, 225, 1) 100%
-  );
-  background-repeat: repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
-  z-index: -1;
-}
+
 </style>
