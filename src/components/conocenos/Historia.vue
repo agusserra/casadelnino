@@ -81,6 +81,8 @@ export default {
   position: relative;
   width: 90%;
   padding-bottom: 50.25%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom:20px;
   height: 0;
   box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);

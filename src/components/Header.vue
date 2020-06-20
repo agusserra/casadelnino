@@ -11,27 +11,27 @@
       <b-navbar-nav class="ml-auto">
         <router-link to="/" tag="b-nav-item">Inicio</router-link>
         <b-nav-item-dropdown text="Conocenos" right>
-          <router-link to="/Nosotros/Comision" tag="b-nav-item">Comisión directiva</router-link>
-          <router-link to="/Nosotros/Historia" tag="b-nav-item">Nuestra historia</router-link>
-          <router-link to="/Nosotros/Desafios" tag="b-nav-item">Nuestros desafíos</router-link>
+          <router-link to="/Conocenos/Historia" tag="b-nav-item">Nuestra historia</router-link>
+          <router-link to="/Conocenos/Desafios" tag="b-nav-item">Nuestros desafíos</router-link>
+          <router-link to="/Conocenos/Comision" tag="b-nav-item">Comisión directiva</router-link>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Actividades" right>
-          <router-link to="/Proyectos/Escolar" tag="b-nav-item">Apoyo escolar</router-link>
-          <router-link to="/Proyectos/Institucional" tag="b-nav-item">Apoyo institucional</router-link>
-          <router-link to="/Proyectos/Pintura" tag="b-nav-item">Taller de pintura</router-link>
-          <router-link to="/Proyectos/Huerta" tag="b-nav-item">Taller de huerta</router-link>
-          <router-link to="/Proyectos/Manualidades" tag="b-nav-item">Taller de manualidades</router-link>
-          <router-link to="/Proyectos/Costura" tag="b-nav-item">Taller de costura</router-link>
-          <router-link to="/Proyectos/Teatro" tag="b-nav-item">Taller de teatro</router-link>
-          <router-link to="/Proyectos/Deporte" tag="b-nav-item">Educación física</router-link>
-          <router-link to="/Proyectos/Pastoral" tag="b-nav-item">Área pastoral</router-link>
+          <router-link to="/Actividades/Escolar" tag="b-nav-item">Apoyo escolar</router-link>
+          <router-link to="/Actividades/Institucional" tag="b-nav-item">Apoyo institucional</router-link>
+          <router-link to="/Actividades/Pintura" tag="b-nav-item">Taller de pintura</router-link>
+          <router-link to="/Actividades/Huerta" tag="b-nav-item">Taller de huerta</router-link>
+          <router-link to="/Actividades/Manualidades" tag="b-nav-item">Taller de manualidades</router-link>
+          <router-link to="/Actividades/Costura" tag="b-nav-item">Taller de costura</router-link>
+          <router-link to="/Actividades/Teatro" tag="b-nav-item">Taller de teatro</router-link>
+          <router-link to="/Actividades/Deporte" tag="b-nav-item">Educación física</router-link>
+          <router-link to="/Actividades/Pastoral" tag="b-nav-item">Área pastoral</router-link>
         </b-nav-item-dropdown>
         <router-link to="/QuieroAyudar" tag="b-nav-item">
           <a class="quiero-ayudar">Quiero ayudar</a>
         </router-link>
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-youtube-play"></a>
-<a href="#" class="fa fa-instagram"></a>
+<a href="https://www.facebook.com/CasaDelNinoPJK" class="fa fa-facebook" target="_blank"></a>
+<a href="https://www.youtube.com/channel/UCpqTl5pNHDCJIY2XzQlIA_w" class="fa fa-youtube-play" target="_blank"></a>
+<a href="https://www.instagram.com/casadelninopk/" class="fa fa-instagram" target="_blank"></a>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

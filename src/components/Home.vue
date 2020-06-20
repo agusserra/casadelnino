@@ -2,7 +2,7 @@
   <div id="app" class="inicio">
     <loader></loader>
     <app-inicial></app-inicial>
-    <app-historia></app-historia>
+    <app-bienvenidos></app-bienvenidos>
     <app-mision-vision></app-mision-vision>
     <app-objetivos></app-objetivos>
   </div>
@@ -11,7 +11,7 @@
 <script>
 import Loader from "./shared/Loader";
 import Inicial from "../components/inicio/Inicial";
-import Historia from "../components/inicio/Historia";
+import Bienvenidos from "../components/inicio/Bienvenidos";
 import MisionVision from "../components/inicio/MisionVision";
 import Objetivos from "../components/inicio/Objetivos";
 
@@ -25,7 +25,7 @@ export default {
   components: {
     Loader: Loader,
     appInicial: Inicial,
-    appHistoria: Historia,
+    appBienvenidos: Bienvenidos,
     appMisionVision: MisionVision,
     appObjetivos: Objetivos
   },

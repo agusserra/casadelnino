@@ -49,7 +49,7 @@ b{
 
 .titulo-verde {
   color: #bcd446;
-  font-size:60px;
+  font-size:55px;
   text-align: center;
 
 }

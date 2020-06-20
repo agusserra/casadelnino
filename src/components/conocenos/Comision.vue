@@ -23,51 +23,51 @@
         <b-card-group style="place-content:center">
           <b-card no-body class="overflow-hidden miembros">
             <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/1001/300/300" class="imagen-conocenos"></b-img>
+              <b-img src="public/images/site/comision/carmona.jpg" class="imagen-conocenos"></b-img>
               <h5 class="nombre">P. Guillermo Carmona</h5>
               <h6 class="cargo">Presidente</h6>
             </b-card-text>
           </b-card>
           <b-card no-body class="overflow-hidden miembros">
             <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/1005/300/300" class="imagen-conocenos"></b-img>
-              <h5 class="nombre">Mercedes Verón</h5>
-              <h6 class="cargo">Directora</h6>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/203/300/300" class="imagen-conocenos"></b-img>
-              <h5 class="nombre">Ricardo del Pino</h5>
-              <h6 class="cargo">Comisión directiva</h6>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/177/300/300" class="imagen-conocenos"></b-img>
-              <h5 class="nombre">Monique Torralva</h5>
-              <h6 class="cargo">Comisión directiva</h6>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/3/300/300" class="imagen-conocenos"></b-img>
-              <h5 class="nombre">Gabriela Sarquis</h5>
-              <h6 class="cargo">Comisión directiva</h6>
-            </b-card-text>
-          </b-card>
-          <b-card no-body class="overflow-hidden miembros">
-            <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/338/300/300" class="imagen-conocenos"></b-img>
+              <b-img src="public/images/site/comision/maria.jpg" class="imagen-conocenos"></b-img>
               <h5 class="nombre">María Dominguez</h5>
-              <h6 class="cargo">Comisión directiva</h6>
+              <h6 class="cargo">Secretaria</h6>
             </b-card-text>
           </b-card>
           <b-card no-body class="overflow-hidden miembros">
             <b-card-text style=" padding:0px">
-              <b-img src="https://picsum.photos/id/342/300/300" class="imagen-conocenos"></b-img>
+              <b-img src="public/images/site/comision/manu.jpg" class="imagen-conocenos"></b-img>
               <h5 class="nombre">P. Manuel López Naón</h5>
-              <h6 class="cargo">Comisión directiva</h6>
+              <h6 class="cargo">Tesorero</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/monique.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Monique Raymond de Torralva</h5>
+              <h6 class="cargo">Vocal titular</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/ricardo.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Ricardo del Pino</h5>
+              <h6 class="cargo">Vocal titular</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/gaby.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Gabriela Sarquis de Imperatrice</h5>
+              <h6 class="cargo">Vocal suplente</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/agus.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Agustín Serra</h5>
+              <h6 class="cargo">Revisor de cuentas</h6>
             </b-card-text>
           </b-card>
         </b-card-group>
@@ -108,7 +108,7 @@ export default {
 <style scope>
 .imagen-conocenos {
   width: 100%;
-  filter: grayscale(0.8);
+  filter: grayscale(0);
   border-radius: 5px;
 }
 
