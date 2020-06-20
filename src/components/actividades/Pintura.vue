@@ -4,19 +4,17 @@
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
-      <b-carousel
-        class="carousel-top"
-        fade
-        img-width="1024"
-        img-height="480"
-      >
+      <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
         <b-carousel-slide img-src="public/images/site/pintura.jpg"></b-carousel-slide>
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style primera-seccion" >
       <div class="titulo-principal">
-        <h1>Taller de pintura</h1>
+        <h1>
+          Taller de
+          <span class="titulo-verde">Pintura</span>
+        </h1>
       </div>
       <p>
         Tiene como fin el fortalecimiento de las capacidades motrices de los niños.
@@ -41,12 +39,7 @@
     </section>
 
     <section class="section-style" style="margin-top:30px">
-      <b-carousel
-      style="z-index:2"
-        id="carousel-fade2"
-        img-height="300"
-
-      >
+      <b-carousel id="carousel-fade" :interval="4000" controls fade img-height="300">
         <b-carousel-slide img-src="public/images/site/pintura/pintura1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pintura/pintura2.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pintura/pintura3.jpg"></b-carousel-slide>
@@ -56,6 +49,7 @@
         <b-carousel-slide img-src="public/images/site/pintura/pintura7.jpg"></b-carousel-slide>
       </b-carousel>
     </section>
+    <actividades></actividades>
   </section>
 </template>
 
@@ -63,8 +57,7 @@
 import Loader from "../shared/Loader";
 
 import { Carousel, Slide } from "vue-carousel";
-
-
+import Actividades from "../shared/Actividades";
 
 export default {
   name: "app",
@@ -83,17 +76,16 @@ export default {
       this.sliding = false;
     }
   },
-  computed: {
-    
-  },
+  computed: {},
   components: {
     Loader: Loader,
     Carousel,
-    Slide
+    Slide,
+    Actividades
   },
-  mounted: function(){
-    const loader=document.querySelector(".loader");
-    loader.className+= " hidden";
+  mounted: function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
   }
 };
 </script>

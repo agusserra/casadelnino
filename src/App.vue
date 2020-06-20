@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div style="height:0">
     <app-header></app-header>
-    <transition name="slide" mode="out-in">
+    <transition name="slide" mode="out-in" >
       <router-view style="padding-bottom:100px"></router-view>
     </transition>
     <app-footer></app-footer>
@@ -221,15 +221,16 @@ ul {
 }
 
 .slide-enter-active {
-  animation: slide-in 400ms ease-out forwards;
+  animation: slide-in 100ms ease-out forwards;
 }
 .slide-leave-active {
-  animation: slide-out 400ms ease-out forwards;
+  animation: slide-out 00ms ease-out forwards;
 }
 
 @keyframes slide-in {
   from {
     opacity: 0;
+
   }
   to {
     opacity: 1;

@@ -2,7 +2,10 @@
   <section style=" width:100%; padding-top:100px; background:grey">
     <b-card-group deck class="deck-footer">
       <b-card no-body class="overflow-hidden card-footer" style="border:0px; ">
-        <router-link to="/QuieroAyudar" style="cursor:pointer; text-align:center" tag="div">
+        <router-link         :to="{
+        path:'/QuieroAyudar',
+        hash:'#inicio'
+        }" style="cursor:pointer; text-align:center" tag="div">
           <b-row no-gutters>
             <b-col md="12">
               <h1>Quiero ayudar</h1>

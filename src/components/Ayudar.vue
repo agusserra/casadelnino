@@ -17,7 +17,7 @@
 
     <section class="section-style primera-seccion">
       <div class="titulo-principal">
-        <h1>Quiero ayudar</h1>
+        <h1>Quiero <span class="titulo-verde">ayudar</span></h1>
       </div>
       <h3 class="font-verde" style="text-align:left;">¿Qué significa apoyar a la Casa del Niño?</h3>
       <p>Apoyar a La Casa del Niño significa apostar por un hogar que reciba a todos los niños que lo necesitan. Queremos lograr que los niños se encuentren en un lugar sano alejados de los peligros de las calles, brindándoles las oportunidades y herramientas necesarias para su futuro.</p>

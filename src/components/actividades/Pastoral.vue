@@ -4,19 +4,17 @@
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
-      <b-carousel
-        class="carousel-top"
-        fade
-        img-width="1024"
-        img-height="480"
-      >
+      <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
         <b-carousel-slide img-src="public/images/site/pastoral.jpg"></b-carousel-slide>
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style primera-seccion" >
       <div class="titulo-principal">
-        <h1>Área pastoral</h1>
+        <h1>
+          Área
+          <span class="titulo-verde">Pastoral</span>
+        </h1>
       </div>
       <p>
         Catequesis para todos los grupos de niños en la casa por profesionales voluntarias
@@ -60,6 +58,7 @@
         <b-carousel-slide img-src="public/images/site/pastoral/pastoral30.jpg"></b-carousel-slide>
       </b-carousel>
     </section>
+    <actividades></actividades>
   </section>
 </template>
 
@@ -67,7 +66,7 @@
 import Loader from "../shared/Loader";
 
 import { Carousel, Slide } from "vue-carousel";
-
+import Actividades from "../shared/Actividades";
 
 export default {
   name: "app",
@@ -86,17 +85,16 @@ export default {
       this.sliding = false;
     }
   },
-  computed: {
-    
-  },
+  computed: {},
   components: {
     Loader: Loader,
     Carousel,
-    Slide
+    Slide,
+    Actividades
   },
-  mounted: function(){
-    const loader=document.querySelector(".loader");
-    loader.className+= " hidden";
+  mounted: function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
   }
 };
 </script>

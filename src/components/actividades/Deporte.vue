@@ -1,20 +1,19 @@
 <template>
   <section class="proyecto">
     <loader></loader>
-    <div style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; ">
-      <b-carousel
-        class="carousel-top"
-        fade
-        img-width="1024"
-        img-height="480"
-      >
+    <div
+      style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
+    >
+      <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
         <b-carousel-slide img-src="public/images/site/deporte.jpg"></b-carousel-slide>
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style primera-seccion" >
       <div class="titulo-principal">
-        <h1>Educación Física</h1>
+        <h1>
+          <span class="titulo-verde">Deportes</span>
+        </h1>
       </div>
       <p>
         Futbol, Hockey y Softball
@@ -45,12 +44,14 @@
         <b-carousel-slide img-src="public/images/site/deporte/deporte16.jpg"></b-carousel-slide>
       </b-carousel>
     </section>
+    <actividades></actividades>
   </section>
 </template>
 
 <script>
 import Loader from "../shared/Loader";
 import { Carousel, Slide } from "vue-carousel";
+import Actividades from "../shared/Actividades";
 
 export default {
   name: "app",
@@ -73,7 +74,8 @@ export default {
   components: {
     Loader: Loader,
     Carousel,
-    Slide
+    Slide,
+    Actividades
   },
   mounted: function() {
     const loader = document.querySelector(".loader");

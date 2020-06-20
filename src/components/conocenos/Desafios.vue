@@ -4,12 +4,7 @@
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
     >
-      <b-carousel
-        class="carousel-top"
-        fade
-        img-width="1024"
-        img-height="480"
-      >
+      <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
         <b-carousel-slide img-src="public/images/site/conocenos1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/conocenos2.jpg"></b-carousel-slide>
       </b-carousel>
@@ -17,7 +12,9 @@
 
     <section class="section-style primera-seccion">
       <div class="titulo-principal">
-        <h1>Desafíos actuales</h1>
+        <h1>
+          <span class="titulo-verde">Desafíos</span> actuales
+        </h1>
       </div>
 
       <b-card no-body class="overflow-hidden" style="border:0px">

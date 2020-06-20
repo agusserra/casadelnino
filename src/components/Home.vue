@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="inicio">
+  <div id="app" class="inicio" >
     <loader></loader>
     <app-inicial></app-inicial>
     <app-bienvenidos></app-bienvenidos>

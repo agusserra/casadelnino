@@ -21,14 +21,7 @@ export default {
     };
   },
   methods: {
-    irLogin() {
-      sessionStorage.usuario = "";
-      sessionStorage.nombre = "";
-      this.$router.push({ path: "/Login" });
-    },
-    irRegister() {
-      this.$router.push({ path: "/Register" });
-    }
+
   },
   computed: {},
   components: {

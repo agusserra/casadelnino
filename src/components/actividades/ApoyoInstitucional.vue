@@ -1,5 +1,5 @@
 <template>
-  <section class="proyecto">
+  <section class="proyecto" >
     <loader></loader>
     <div style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; ">
       <b-carousel
@@ -12,9 +12,9 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style primera-seccion" >
       <div class="titulo-principal">
-        <h1>Apoyo Institucional</h1>
+        <h1>Apoyo <span class="titulo-verde">Institucional</span></h1>
       </div>
       <p>Visitas de distintas instituciones educativas que favorece el enriquecimiento mutuo e intercambio comunitario</p>
 
@@ -31,12 +31,16 @@
         <br />
       </p>
     </section>
+        <actividades></actividades>
+
   </section>
 </template>
 
 <script>
 import Loader from "../shared/Loader";
 import { Carousel, Slide } from "vue-carousel";
+import Actividades from "../shared/Actividades";
+
 
 export default {
   name: "app",
@@ -48,7 +52,9 @@ export default {
   components: {
     Loader: Loader,
     Carousel,
-    Slide
+    Slide,
+        Actividades
+
   },
   mounted: function() {
     const loader = document.querySelector(".loader");
