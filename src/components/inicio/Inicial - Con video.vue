@@ -79,23 +79,11 @@ export default {
   z-index: 1;
 }
 
-.logo-inicio {
-  display: block;
-  padding-bottom: 60px;
-  max-width: 600px;
-  margin: auto;
-}
-
 .card-img-top {
   box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.32);
 }
 
 @media screen and (max-width: 600px) {
-  .logo-inicio {
-    width: 80%;
-    margin: 15px;
-  }
-
   .card-img-top {
     height: 100%;
   }
