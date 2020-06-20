@@ -81,11 +81,9 @@ b{
 
 .section-style {
   z-index: 1;
-  max-width: 900px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 40px 80px;
-  margin: auto;
   background: white;
   border-radius: 5px;
   -webkit-box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
