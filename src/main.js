@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import { store } from './store/store'
 import App from './App.vue'
 import VueRouter from 'vue-router';
 import VueRouterBackButton from 'vue-router-back-button'
@@ -20,8 +19,8 @@ const router = new VueRouter({
 Vue.use(VueRouter)
 new Vue({
   el: '#app',
+  
   router,
-  store,
   render: h => h(App)
 });
 

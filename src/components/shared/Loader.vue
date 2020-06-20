@@ -8,7 +8,6 @@
 
 
 <script>
-import { mapGetters } from "vuex";
 import AnimationLoader from '../animations/Loader.vue'
 
 export default {

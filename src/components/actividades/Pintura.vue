@@ -64,7 +64,7 @@ import Loader from "../shared/Loader";
 
 import { Carousel, Slide } from "vue-carousel";
 
-import { mapGetters } from "vuex";
+
 
 export default {
   name: "app",
