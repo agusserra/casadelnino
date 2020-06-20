@@ -9,6 +9,7 @@
       </b-carousel>
     </div>
 
+<<<<<<< HEAD
     <section class="section-style margenes primera-seccion" >
       <div class="titulo-principal">
         <h1>
@@ -16,6 +17,13 @@
           <span class="titulo-verde">Escolar</span>
         </h1>
       </div>
+=======
+    <section class="section-style primera-seccion" >
+    <div class="titulo-principal">
+      <h1>Apoyo</h1>
+      <h1 class="titulo-verde">Escolar</h1>
+    </div>
+>>>>>>> origin/master
       <p>Se trabaja en base al Programa de Fortalecimiento de Capacidades. Se trata de un programa desarrollado por el Ministerio Desarrollo Social destinado a niños en situación de vulnerabilidad para el fortalecimiento de sus capacidades a través de un taller de lecto-escritura donde se trabaja con cada grupo conforme a su edad y orientador.</p>
       <p>Se brinda un refuerzo del proceso de aprendizaje a través de distintas actividades:</p>
       <p>

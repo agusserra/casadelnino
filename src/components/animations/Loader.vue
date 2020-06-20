@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 .animation-logo {
-  width: 300px;
+  width: 100px;
 }
 
 @media screen and (max-width: 600px) {

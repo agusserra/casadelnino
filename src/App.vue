@@ -26,6 +26,8 @@ export default {
 </script>
 
 <style>
+
+
 b {
   font-weight: 600;
 }
@@ -70,7 +72,7 @@ b {
   text-align: center;
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .titulo-verde {
@@ -179,7 +181,21 @@ h1 {
   font-size: 40px;
   margin: 0;
   padding: 0;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h3 {
   padding: 10px;
@@ -303,4 +319,64 @@ ul {
     font-size: 15px;
   }
 }
+
+
+.title{
+  margin-bottom:30px;
+}
+
+h1 {
+  width: 100%;
+  color: #494949;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  transform: translateY(-50px);
+  opacity: 0;
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+}
+
+h1  {
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+h1:first-child {
+  animation-delay: 0.7s;
+}
+h1:last-child {
+  animation-delay: 0.5s;
+}
+
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+}
+
+
+
+
 </style>

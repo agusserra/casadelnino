@@ -10,6 +10,7 @@
       </b-carousel>
     </div>
 
+<<<<<<< HEAD
     <section class="section-style margenes primera-seccion">
       <div class="titulo-principal">
         <h1>
@@ -17,6 +18,14 @@
           <span class="titulo-verde">Historia</span>
         </h1>
       </div>
+=======
+    <section class="section-style primera-seccion">
+
+     <div class="titulo-principal">
+      <h1>Nuestra</h1>
+      <h1 class="titulo-verde">Historia</h1>
+    </div>
+>>>>>>> origin/master
 
       <p>
         La
