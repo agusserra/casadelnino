@@ -13,9 +13,10 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>Apoyo <span class="titulo-verde">Institucional</span></h1>
-      </div>
+    <div class="titulo-principal">
+      <h1>Apoyo</h1>
+      <h1 class="titulo-verde">Institucional</h1>
+    </div>
       <p>Visitas de distintas instituciones educativas que favorece el enriquecimiento mutuo e intercambio comunitario</p>
 
       <p>

@@ -10,11 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>
-          <span class="titulo-verde">Deportes</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+
+      <h1 class="titulo-verde">Deportes</h1>
+    </div>
       <p>
         Futbol, Hockey y Softball
         <br />MODALIDAD: Martes y Jueves de 8 a 17 hs. PROFESOR LUCAS GATTO

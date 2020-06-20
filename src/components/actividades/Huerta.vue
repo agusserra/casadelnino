@@ -10,12 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="titulo-principal">
-        <h1>
-          Taller de
-          <span class="titulo-verde">Huerta</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Taller de</h1>
+      <h1 class="titulo-verde">Huerta</h1>
+    </div>
       <p>
         PROYECTO HUERTA COMUNITARIA presentada por el Grupo de Madres del Movimiento Apostólico de Schoenstatt del Santuario de Confidentia con el apoyo de ProHuerta INTA
         <br />Huerta Orgánica y Sustentable

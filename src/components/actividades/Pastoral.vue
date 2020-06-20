@@ -10,12 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>
-          Área
-          <span class="titulo-verde">Pastoral</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Área</h1>
+      <h1 class="titulo-verde">Pastoral</h1>
+    </div>
       <p>
         Catequesis para todos los grupos de niños en la casa por profesionales voluntarias
         <br />Catequesis para Primera Comunión

@@ -10,12 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>
-          Taller de
-          <span class="titulo-verde">Teatro</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Taller de</h1>
+      <h1 class="titulo-verde">Teatro</h1>
+    </div>
       <p>
         Profesor Pablo Andrés Nakandakare. DíasLunes y Miércoles en la Casa
         <br />Incorporamos clases de Teatro en la casa para el Grupo Grande en el TM y TT

@@ -16,9 +16,10 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="titulo-principal">
-        <h1>Comisión <span class="titulo-verde">Directiva</span></h1>
-      </div>
+     <div class="titulo-principal">
+      <h1>Comisión</h1>
+      <h1 class="titulo-verde">Directiva</h1>
+    </div>
       <div style="text-aling:center">
         <b-card-group style="place-content:center">
           <b-card no-body class="overflow-hidden miembros">

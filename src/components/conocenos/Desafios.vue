@@ -11,11 +11,9 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="titulo-principal">
-        <h1>
-          <span class="titulo-verde">Desafíos</span> actuales
-        </h1>
-      </div>
+     <div class="titulo-principal">
+      <h1 class="titulo-verde">Desafíos</h1>
+    </div>
 
       <b-card no-body class="overflow-hidden" style="border:0px">
         <b-row no-gutters>

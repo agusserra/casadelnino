@@ -103,9 +103,8 @@ export default {
 
 .card-footer {
   margin-top: -50px !important;
-  margin-bottom:30px;
-  padding-bottom: 0px;
-  max-width: 280px !important;
+  margin-bottom:50px;
+  padding-bottom: 30px;
   min-width: 280px;
   border-radius: 2px;
   background: #ffffff;

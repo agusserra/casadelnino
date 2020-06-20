@@ -5,8 +5,13 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h2 style="text-align: center;">Nuestra <span class="titulo-verde">Misión</span></h2>
-              <b-card-text style="text-align: center;">Que cada niño, respetado en su individualidad, sea acompañado y motivado a descubrir sus propios talentos en un ambiente de amor, alegría, libertad y confianza creciendo en autonomía y compromiso social.</b-card-text>
+              <h1 class="title">
+                <span>Nuestra</span>
+                <span class="titulo-verde">Misión</span>
+              </h1>
+              <b-card-text
+                style="text-align: center;"
+              >Que cada niño, respetado en su individualidad, sea acompañado y motivado a descubrir sus propios talentos en un ambiente de amor, alegría, libertad y confianza creciendo en autonomía y compromiso social.</b-card-text>
             </b-card-body>
           </b-col>
         </b-row>
@@ -15,8 +20,13 @@
         <b-row no-gutters>
           <b-col md="12">
             <b-card-body>
-              <h2 style="text-align: center;">Nuestra <span class="titulo-verde">Visión</span></h2>
-              <b-card-text style="text-align: center;">Ser un hogar con las puertas abiertas brindando apoyo integral a los niños y sus familias.</b-card-text>
+                            <h1 class="title">
+                <span>Nuestra</span>
+                <span class="titulo-verde">Visión</span>
+              </h1>
+              <b-card-text
+                style="text-align: center;"
+              >Ser un hogar con las puertas abiertas brindando apoyo integral a los niños y sus familias.</b-card-text>
             </b-card-body>
           </b-col>
         </b-row>

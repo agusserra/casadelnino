@@ -1,11 +1,8 @@
 <template>
   <section class="section-style primera-seccion">
     <div class="titulo-principal">
-      <h1>Bienvenidos a</h1>
-
-      <h1>
-        <span class="titulo-verde">La casa del niño</span>
-      </h1>
+      <h1>Bienvenidos</h1>
+      <h1 class="titulo-verde">La casa del niño</h1>
     </div>
     <p>
       La
@@ -25,7 +22,6 @@
 </template>
 
 <script>
-
 export default {
   name: "app",
   data() {
@@ -33,8 +29,7 @@ export default {
   },
   methods: {},
   computed: {},
-  components: {
-  },
+  components: {},
 
   mounted: function() {}
 };

@@ -11,12 +11,11 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="titulo-principal">
-        <h1>
-          Nuestra
-          <span class="titulo-verde">Historia</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Nuestra</h1>
+      <h1 class="titulo-verde">Historia</h1>
+    </div>
 
       <p>
         La

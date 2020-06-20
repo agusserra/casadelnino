@@ -10,12 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>
-          Taller de
-          <span class="titulo-verde">Pintura</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Taller de</h1>
+      <h1 class="titulo-verde">Pintura</h1>
+    </div>
       <p>
         Tiene como fin el fortalecimiento de las capacidades motrices de los niños.
         <br />Profesionales voluntarios de arte: Laura Varangot y Gonzalo Gorostiaga.

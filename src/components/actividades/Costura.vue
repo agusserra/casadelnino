@@ -10,12 +10,10 @@
     </div>
 
     <section class="section-style primera-seccion">
-      <div class="titulo-principal">
-        <h1>
-          Taller de
-          <span class="titulo-verde">Costura</span>
-        </h1>
-      </div>
+     <div class="titulo-principal">
+      <h1>Taller de</h1>
+      <h1 class="titulo-verde">Costura</h1>
+    </div>
       <p>
         A cargo de Mujeres Voluntarias del Barrio con el apoyo de referentes voluntarias profesionales del Área de Costura
         <br />MODALIDAD: Semanal. Miércoles en TM (10 a 12) y TT (13 a 16 hs)

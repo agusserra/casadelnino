@@ -10,12 +10,11 @@
     </div>
 
     <section class="section-style primera-seccion" >
-      <div class="titulo-principal">
-        <h1>
-          Taller de
-          <span class="titulo-verde">Manualidades</span>
-        </h1>
-      </div>
+
+     <div class="titulo-principal">
+      <h1>Taller de</h1>
+      <h1 class="titulo-verde">Manualidades</h1>
+    </div>
       <p>Desarrollado por cada orientador con su grupo</p>
 
       <p>
