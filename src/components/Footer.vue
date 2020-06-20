@@ -97,19 +97,14 @@ export default {
   margin-top: -150px;
   padding-bottom: 10px;
 }
+
 .card-body {
   padding: 0px;
 }
 
 .card-footer {
-<<<<<<< HEAD
   margin-bottom:30px;
-  padding-bottom: 0px;
-=======
-  margin-top: -50px !important;
-  margin-bottom:50px;
   padding-bottom: 30px;
->>>>>>> origin/master
   min-width: 280px;
   max-width: 320px;
   border-radius: 2px;

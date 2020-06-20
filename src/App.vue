@@ -72,7 +72,7 @@ b {
   text-align: center;
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .titulo-verde {
@@ -184,19 +184,6 @@ h1 {
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 h3 {
   padding: 10px;
   margin-bottom: 0px;
@@ -205,6 +192,7 @@ h3 {
 h5 {
   color: #f4964c;
   font-weight: bold;
+  text-align: center;
 }
 
 h6 {

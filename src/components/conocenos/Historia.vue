@@ -10,23 +10,12 @@
       </b-carousel>
     </div>
 
-<<<<<<< HEAD
     <section class="section-style margenes primera-seccion">
-      <div class="titulo-principal">
-        <h1>
-          Nuestra
-          <span class="titulo-verde">Historia</span>
-        </h1>
-      </div>
-=======
-    <section class="section-style primera-seccion">
 
      <div class="titulo-principal">
       <h1>Nuestra</h1>
       <h1 class="titulo-verde">Historia</h1>
     </div>
->>>>>>> origin/master
-
       <p>
         La
         <b>Casa del Niño</b> se fundó el 16 de Junio de 1985 como organización sin fines de lucro fruto del deseo de dar respuesta a la realidad de muchos niños del barrio San Nicolás de Florencio Varela, Provincia de Buenos Aires, Argentina. Se vio la necesidad de alejar a los chicos de los peligros de la calle para que encuentren un lugar de cobijamiento y puedan ser acompañados especialmente en un ambiente sano.
@@ -118,7 +107,7 @@ export default {
   margin-left: auto;
   margin-bottom: 20px;
   height: 0;
-  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 11px 16px 1px rgba(0, 0, 0, 0.2);
 }
 .video-container iframe {
   position: absolute;

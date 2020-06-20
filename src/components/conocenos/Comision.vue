@@ -15,18 +15,11 @@
       </b-carousel>
     </div>
 
-<<<<<<< HEAD
     <section class="section-style margenes primera-seccion">
-      <div class="titulo-principal">
-        <h1>Comisión <span class="titulo-verde">Directiva</span></h1>
-      </div>
-=======
-    <section class="section-style primera-seccion">
      <div class="titulo-principal">
       <h1>Comisión</h1>
       <h1 class="titulo-verde">Directiva</h1>
     </div>
->>>>>>> origin/master
       <div style="text-aling:center">
         <b-card-group style="place-content:center">
           <b-card no-body class="overflow-hidden miembros">
@@ -128,8 +121,9 @@ export default {
 .nombre {
   padding: 10px 0px 5px 5px;
   margin: 0;
-  font-size: 18px;
+  font-size: 17px;
   color: rgba(0, 0, 0, 1);
+  text-align: left;
 }
 
 .cargo {
@@ -147,6 +141,4 @@ export default {
   width: 200px !important;
   border: 0px;
 }
-
-
 </style>
