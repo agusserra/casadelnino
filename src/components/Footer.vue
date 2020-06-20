@@ -9,6 +9,7 @@
           <b-row no-gutters>
             <b-col md="12">
               <h1>Quiero ayudar</h1>
+              <p></p>
               <b-icon-heart-fill style="width:80px; height:80px; text-align:center; color: #F4964C"></b-icon-heart-fill>
             </b-col>
 
@@ -103,10 +104,6 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-  .logo-inicio {
-    width: 80%;
-    margin: 20px;
-  }
   .card-footer {
     margin: auto;
     margin-bottom: 80px;

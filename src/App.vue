@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style>
-b{
+b {
   font-weight: 600;
 }
 .proyecto {
@@ -49,9 +49,8 @@ b{
 
 .titulo-verde {
   color: #bcd446;
-  font-size:55px;
+  font-size: 55px;
   text-align: center;
-
 }
 
 .font-verde {
@@ -81,14 +80,21 @@ b{
 
 .section-style {
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding: 40px 80px;
   background: white;
   border-radius: 5px;
   -webkit-box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
   box-shadow: -16px -18px 78px -50px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 1800px) {
+  .section-style {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -98,6 +104,8 @@ b{
 
   .section-style {
     max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -106,13 +114,12 @@ b{
     margin-top: -40px;
     margin-left: 20px;
     margin-right: 20px;
-  padding: 20px 40px;
-
+    padding: 20px 40px;
   }
 
   .titulo-verde {
-  font-size:35px;
-}
+    font-size: 35px;
+  }
 }
 
 h1,
@@ -121,7 +128,7 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #54595f;
   padding: 15px;
 }
@@ -145,6 +152,7 @@ h3 {
 
 h5 {
   color: #f4964c;
+  font-weight: bold;
 }
 
 h6 {
@@ -155,20 +163,22 @@ h6 {
 .quote {
   color: #2daae1;
   font-size: 30px;
-font-family: 'Raleway', sans-serif;  padding: 0px;
+  font-family: "Raleway", sans-serif;
+  padding: 0px;
   font-variant: normal;
   text-align: center;
   margin-bottom: 16px;
 }
 
 p {
-font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #888888;
 }
 
 p,
 li {
-font-family: 'Raleway', sans-serif;  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
   padding: 10px;
   font-size: 18px;
   text-align: left;
