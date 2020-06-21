@@ -1,5 +1,5 @@
 <template>
-  <section class="inicio" style="z-index:0">
+  <section class="inicio">
     <loader></loader>
     <div
       style="display:inline-grid; vertical-align: middle; width:100%;text-align: -webkit-center; "
@@ -11,10 +11,10 @@
     </div>
 
     <section class="section-style margenes primera-seccion">
-     <div class="titulo-principal">
-      <h1>Quiero</h1>
-      <h1 class="titulo-verde">Ayudar</h1>
-    </div>
+      <div class="titulo-principal">
+        <h1>Quiero</h1>
+        <h1 class="titulo-verde">Ayudar</h1>
+      </div>
       <h3 style="text-align:left;">¿Qué significa apoyar a la Casa del Niño?</h3>
       <p>Apoyar a La Casa del Niño significa apostar por un hogar que reciba a todos los niños que lo necesitan. Queremos lograr que los niños se encuentren en un lugar sano alejados de los peligros de las calles, brindándoles las oportunidades y herramientas necesarias para su futuro.</p>
       <h3 style="text-align:left;">¿Cómo hacemos para lograrlo?</h3>
@@ -29,7 +29,7 @@
       <h4>¡Gracias por tu ayuda!</h4>
     </section>
 
-    <section class="section-style margenes " style="margin-top:30px">
+    <section class="section-style margenes" style="margin-top:30px">
       <h2 class="titulo-verde">¿Cómo ayudar?</h2>
 
       <div class="bloque-ayuda">

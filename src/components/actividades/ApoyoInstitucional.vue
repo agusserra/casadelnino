@@ -18,19 +18,20 @@
       <h1 class="titulo-verde">Institucional</h1>
     </div>
       <p style="margin-bottom: 0px; padding-bottom: 10px;">Distintas instituciones educativas visitan nuestra casa lo que favorece el enriquecimiento mutuo e intercambio comunitario.</p>
-      <p class="check-text vertical-center">
-        <b-icon-check class="icon-check"></b-icon-check><b>Colegio Jesús María</b>&nbsp;de Florencio Varela
+      <p class="check-text ">
+        <b-icon-check class="icon-check"></b-icon-check>
+        <b>Colegio Jesús María</b>&nbsp;de Florencio Varela
       </p>
-      <p class="check-text vertical-center">
-        <b-icon-check class="icon-check vertical-center"></b-icon-check><b>Escuela Argentina Modelo</b>&nbsp;de C.A.B.A.
+      <p class="check-text ">
+        <b-icon-check class="icon-check"></b-icon-check><b>Escuela Argentina Modelo</b>&nbsp;de C.A.B.A.
       </p>
-      <p class="check-text vertical-center">
+      <p class="check-text ">
         <b-icon-check class="icon-check"></b-icon-check><b>Colegio Pellegrini</b>&nbsp;de C.A.B.A.
       </p>
-      <p class="check-text vertical-center">
+      <p class="check-text ">
         <b-icon-check class="icon-check"></b-icon-check><b>Colegio Estrada</b>&nbsp;de La Plata
       </p>
-      <p class="check-text vertical-center">
+      <p class="check-text ">
         <b-icon-check class="icon-check"></b-icon-check><b>Colegio San Tarsicio</b>&nbsp;de C.A.B.A.
       </p>
     </section>

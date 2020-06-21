@@ -106,7 +106,6 @@ export default {
   margin-bottom:30px;
   padding-bottom: 30px;
   min-width: 280px;
-  max-width: 320px;
   border-radius: 2px;
   background: #ffffff;
   -webkit-box-shadow: -1px 23px 33px -4px rgba(0, 0, 0, 0.38);

@@ -142,7 +142,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h3 style="color:#2daae1; margin:0">Alimentación</h3>
+                <h2 style="color:#2daae1; margin:0">Alimentación</h2>
                 <b-card-text>
                   <p>Turno de mañana: desayuno, refuerzo de media mañana y almuerzo.</p>
                   <p>Turno de tarde: almuerzo, refuerzo de media tarde y merienda.</p>
@@ -155,7 +155,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h3 style="color:#2daae1; margin:0">Amor</h3>
+                <h2 style="color:#2daae1; margin:0">Amor</h2>
 
                 <b-card-text>
                   <p>Elementos de abrigo e higiene.</p>
@@ -169,7 +169,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h3 style="color:#2daae1; margin:0">Apoyo Integral</h3>
+                <h2 style="color:#2daae1; margin:0">Apoyo Integral</h2>
 
                 <b-card-text>
                   Además del
