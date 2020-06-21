@@ -18,22 +18,22 @@
         Se trabaja en base al <b>Programa de Fortalecimiento de Capacidades</b>. Se trata de un programa desarrollado por el Ministerio Desarrollo Social destinado a niños en situación de vulnerabilidad para el fortalecimiento de sus capacidades a través de un taller de lecto-escritura donde se trabaja con cada grupo conforme a su edad y orientador.
       </p>
       <p style="margin-bottom: 0px; padding-bottom: 10px;">Se brinda un refuerzo del proceso de aprendizaje a través de distintas actividades:</p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+      <p class="check-text vertical-center">
         <b-icon-check class="icon-check"></b-icon-check>Lúdicas y didácticas
       </p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
-        <b-icon-check class="icon-check vertical-center"></b-icon-check>Rincones de lectura
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Rincones de lectura
       </p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+      <p class="check-text vertical-center">
         <b-icon-check class="icon-check"></b-icon-check>Representación de cuentos
       </p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+      <p class="check-text vertical-center">
         <b-icon-check class="icon-check"></b-icon-check>Juegos de palabras
       </p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+      <p class="check-text vertical-center">
         <b-icon-check class="icon-check"></b-icon-check>Juegos situacionales
       </p>
-      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+      <p class="check-text vertical-center">
         <b-icon-check class="icon-check"></b-icon-check>Juegos de mesa
       </p>
     </section>

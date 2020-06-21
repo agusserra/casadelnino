@@ -15,29 +15,24 @@
       <h1>Taller de</h1>
       <h1 class="titulo-verde">Pintura</h1>
     </div>
-      <p>
-        Tiene como fin el fortalecimiento de las capacidades motrices de los niños.
-        <br />Profesionales voluntarios de arte: Laura Varangot y Gonzalo Gorostiaga.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Actividades de pintura de murales.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Desarrollo de la motricidad fina pintando interiores y diseñando murales.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Conocimiento sobre los colores primarios y secundarios, y también sobre mezcla de colores.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Desarrollo de la inteligencia emocional y los talentos propios.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Los chicos eligieron juntos “El Libro de la Selva” de la biblioteca de la Casa del Niño y junto a los profesores se realizó el diseño en la pared exterior de la Casa. Luego, bajo la conducción de Gonzalo y Laura, con ayuda de las orientadores, cada grupo fue colaborando en una parte del mural.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Aprendiendo sobre los colores, eligiéndolos y pintando los interiores.
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>El trabajo continuará pues se avanzará en la pintura de otras paredes exteriores de la Casa con la misma modalidad de participación de los chicos.
-        <br />
-        <b>Frecuencia: Una vez cada tres semanas</b>
+      <p style="margin-bottom: 0px; padding-bottom: 10px;">Este taller tiene como fin el fortalecimiento de las capacidades motrices de los niños. Se realiza una vez cada 3 semanas y está a cargo de los profesionales voluntarios de arte Laura Varangot y Gonzalo Gorostiaga. Consta de:</p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Actividades de pintura de murales.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Desarrollo de la motricidad fina pintando interiores y diseñando murales.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Conocimiento sobre los colores primarios y secundarios, y también sobre mezcla de colores.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Desarrollo de la inteligencia emocional y los talentos propios.
       </p>
     </section>
 
     <section class="section-style margenes " style="margin-top:30px">
+      <p>Los chicos eligieron juntos <b>"El Libro de la Selva"</b> de la biblioteca de la casa y junto a los profesores se realizó el diseño en la pared exterior de la Casa. Luego, bajo la conducción de Gonzalo y Laura, con ayuda de las orientadores, cada grupo fue colaborando en una parte del mural.</p>
+      <p>El trabajo continuará pues se avanzará en la pintura de otras paredes exteriores de la Casa con la misma modalidad de participación de los chicos.</p>
       <b-carousel id="carousel-fade" :interval="4000" controls fade img-height="300">
         <b-carousel-slide img-src="public/images/site/pintura/pintura1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pintura/pintura2.jpg"></b-carousel-slide>

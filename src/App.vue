@@ -107,6 +107,11 @@ b {
   color:#2daae1;
 }
 
+.check-text {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .vertical-center {
   display: flex;
   align-items: center;
