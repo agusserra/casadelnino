@@ -34,7 +34,7 @@
 
       <div class="bloque-ayuda">
         <h2 class="como-ayudar">Padrino</h2>
-        <div style="min-width:250px">
+        <div>
           <b-img src="public/images/site/padrino.jpg" style="width:100%;padding:10px"></b-img>
         </div>
 
@@ -55,7 +55,7 @@
       <div class="bloque-ayuda">
         <h2 class="como-ayudar">Voluntario</h2>
 
-        <div style="min-width:250px">
+        <div >
           <b-img src="public/images/site/voluntario.jpg" style="width:100%;padding:10px"></b-img>
         </div>
         <div style="padding:20px; text-align:left">
@@ -114,6 +114,9 @@ export default {
 </script>
 
 <style scope>
+.bloque-ayuda{
+  background-color: #f0efef
+}
 .button {
   text-decoration: none;
   color: white;
@@ -122,12 +125,7 @@ export default {
   border-radius: 5px;
 }
 
-.bloque-ayuda {
-  background: #eeeeee;
-  border-radius: 5px;
-  margin: 15px;
-  padding: 15px;
-}
+
 .como-ayudar {
   background: rgba(0, 0, 0, 0.685);
   color: white;
@@ -137,41 +135,10 @@ export default {
   position: absolute;
   font-variant: normal;
 }
-.detalle-como-ayudar {
-  background: white;
-  width: 70%;
-  margin: 20px;
-}
-.imagen-conocenos {
-  width: 100%;
-  filter: grayscale(0.8);
-  border-radius: 5px;
-}
 
-.imagen-conocenos:hover {
-  filter: grayscale(0.1);
-  transition: filter 0.5s;
-}
-
-.apoyo {
-  min-width: 300px;
-}
-
-.conocenos {
-  background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #bcd446 100%);
-  background-repeat: repeat;
-  background-size: 100%;
-  text-align: -webkit-center;
-  display: table;
-  position: relative;
-  width: 100%;
-  z-index: -1;
-}
 
 @media screen and (max-width: 600px) {
-  .apoyo {
-    min-width: 200px;
-  }
+
 
   .como-ayudar {
     margin-top: 5px;
@@ -181,49 +148,4 @@ export default {
   }
 }
 
-.flip-box {
-  background-color: transparent;
-  width: 600px;
-  height: 400px;
-  border: 0px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-box-front,
-.flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-box-front {
-  color: black;
-}
-
-/* Style the back side */
-.flip-box-back {
-  padding: 30px;
-  background-color: rgb(109, 109, 109);
-  color: white;
-  transform: rotateY(180deg);
-}
 </style>
