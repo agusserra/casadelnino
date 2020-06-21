@@ -26,8 +26,6 @@ export default {
 </script>
 
 <style>
-
-
 b {
   font-weight: 600;
 }
@@ -57,6 +55,7 @@ b {
   width: 100%;
   z-index: -1;
 }
+
 .conocenos {
   background: linear-gradient(180deg, #bcd446 40%, #bcd44671 100%);
   background-repeat: repeat;
@@ -77,8 +76,10 @@ b {
 
 .titulo-verde {
   color: #bcd446;
-  font-size: 55px;
+  font-size: 50px;
+  font-weight: 500;
   text-align: center;
+  margin-top: -10px;
 }
 
 .font-verde {
@@ -87,11 +88,28 @@ b {
 
 .font-celeste {
   color: #2daae1;
-
 }
 
 .font-blanco {
   color: #fff;
+}
+
+.icon-obj {
+  width: 80px;
+  height: 80px;
+  color: #2daae1;
+  padding: 10px;
+}
+
+.icon-check {
+  width:25px;
+  height:25px;
+  color:#2daae1;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
 }
 
 .carousel-top {
@@ -178,7 +196,7 @@ h2 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 37px;
   margin: 0;
   padding: 0;
   
@@ -210,18 +228,22 @@ h6 {
   margin-bottom: 16px;
 }
 
-p {
-  font-family: "Raleway", sans-serif;
-  color: #888888;
-}
-
 p,
 li {
   font-family: "Raleway", sans-serif;
-  line-height: 30px;
+  
   padding: 10px;
   font-size: 18px;
   text-align: left;
+}
+
+p {
+  color: #888888;
+}
+
+li {
+  font-weight: bold;
+  line-height: 30px;
 }
 
 ul {
@@ -240,6 +262,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
 .loader.hidden {
   animation: fadeOut 1.5s;
   animation-fill-mode: forwards;
@@ -273,6 +296,7 @@ ul {
 .slide-enter-active {
   animation: slide-in 100ms ease-out forwards;
 }
+
 .slide-leave-active {
   animation: slide-out 00ms ease-out forwards;
 }
@@ -285,6 +309,7 @@ ul {
     opacity: 1;
   }
 }
+
 @keyframes slide-out {
   from {
     opacity: 1;
@@ -306,11 +331,6 @@ ul {
   li {
     font-size: 15px;
   }
-}
-
-
-.title{
-  margin-bottom:30px;
 }
 
 h1 {
@@ -335,7 +355,6 @@ h1:first-child {
 h1:last-child {
   animation-delay: 0.5s;
 }
-
 
 @keyframes titleAnimation {
   0% {
@@ -363,8 +382,4 @@ h1:last-child {
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
   }
 }
-
-
-
-
 </style>

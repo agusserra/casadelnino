@@ -10,7 +10,7 @@
       </b-carousel>
     </div>
 
-    <section class="section-style primera-seccion">
+    <section class="section-style margenes primera-seccion">
      <div class="titulo-principal">
       <h1>Quiero</h1>
       <h1 class="titulo-verde">Ayudar</h1>
@@ -156,6 +156,7 @@ export default {
 .apoyo {
   min-width: 300px;
 }
+
 .conocenos {
   background: linear-gradient(180deg, rgb(226, 226, 226) 30%, #bcd446 100%);
   background-repeat: repeat;
@@ -165,12 +166,6 @@ export default {
   position: relative;
   width: 100%;
   z-index: -1;
-}
-.icon-obj {
-  width: 80px;
-  height: 80px;
-  color: #2daae1;
-  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {

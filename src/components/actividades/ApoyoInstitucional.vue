@@ -17,19 +17,21 @@
       <h1>Apoyo</h1>
       <h1 class="titulo-verde">Institucional</h1>
     </div>
-      <p>Visitas de distintas instituciones educativas que favorece el enriquecimiento mutuo e intercambio comunitario</p>
-
-      <p>
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Colegio Jesús María de Florencio Varela
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Escuela Argentina Modelo CABA
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Colegio Pellegrini CABA
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Colegio Estrada La Plata
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Colegio San Tarsicio CABA
-        <br />
+      <p style="margin-bottom: 0px; padding-bottom: 10px;">Distintas instituciones educativas visitan nuestra casa lo que favorece el enriquecimiento mutuo e intercambio comunitario.</p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check><b>Colegio Jesús María</b>&nbsp;de Florencio Varela
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check vertical-center"></b-icon-check><b>Escuela Argentina Modelo</b>&nbsp;de C.A.B.A.
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check><b>Colegio Pellegrini</b>&nbsp;de C.A.B.A.
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check><b>Colegio Estrada</b>&nbsp;de La Plata
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check><b>Colegio San Tarsicio</b>&nbsp;de C.A.B.A.
       </p>
     </section>
         <actividades></actividades>

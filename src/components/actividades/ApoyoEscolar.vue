@@ -9,26 +9,32 @@
       </b-carousel>
     </div>
 
-    <section class="section-style margenes primera-seccion" >
-    <div class="titulo-principal">
-      <h1>Apoyo</h1>
-      <h1 class="titulo-verde">Escolar</h1>
-    </div>
-      <p>Se trabaja en base al Programa de Fortalecimiento de Capacidades. Se trata de un programa desarrollado por el Ministerio Desarrollo Social destinado a niños en situación de vulnerabilidad para el fortalecimiento de sus capacidades a través de un taller de lecto-escritura donde se trabaja con cada grupo conforme a su edad y orientador.</p>
-      <p>Se brinda un refuerzo del proceso de aprendizaje a través de distintas actividades:</p>
+    <section class="section-style margenes primera-seccion">
+      <div class="titulo-principal">
+        <h1>Apoyo</h1>
+        <h1 class="titulo-verde">Escolar</h1>
+      </div>
       <p>
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Lúdicas y didácticas
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Rincones de lectura
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Representación de cuentos
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Juegos de palabras
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Juegos situacionales
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Juegos de mesa
-        <br />
+        Se trabaja en base al <b>Programa de Fortalecimiento de Capacidades</b>. Se trata de un programa desarrollado por el Ministerio Desarrollo Social destinado a niños en situación de vulnerabilidad para el fortalecimiento de sus capacidades a través de un taller de lecto-escritura donde se trabaja con cada grupo conforme a su edad y orientador.
+      </p>
+      <p style="margin-bottom: 0px; padding-bottom: 10px;">Se brinda un refuerzo del proceso de aprendizaje a través de distintas actividades:</p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check>Lúdicas y didácticas
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check vertical-center"></b-icon-check>Rincones de lectura
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check>Representación de cuentos
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check>Juegos de palabras
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check>Juegos situacionales
+      </p>
+      <p class="vertical-center" style="margin-bottom: 0px; padding-bottom: 0px;">
+        <b-icon-check class="icon-check"></b-icon-check>Juegos de mesa
       </p>
     </section>
 
@@ -39,7 +45,6 @@
 <script>
 import Loader from "../shared/Loader";
 import Actividades from "../shared/Actividades";
-
 import { Carousel, Slide } from "vue-carousel";
 
 export default {
