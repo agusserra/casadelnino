@@ -9,20 +9,16 @@
       </b-carousel>
     </div>
 
-    <section class="section-style margenes primera-seccion" >
-
-     <div class="titulo-principal">
-
-      <h1 class="titulo-verde">Deportes</h1>
-    </div>
-      <p>
-        Futbol, Hockey y Softball
-        <br />MODALIDAD: Martes y Jueves de 8 a 17 hs. PROFESOR LUCAS GATTO
-        <br />Un profesor trabaja con cada grupo incorporando actividades conforme a las edades de los chicos
-        <br />Este año se incorporó al HOCKEY como nuevo deporte gracias al gran aporte de donaciones del equipamiento para el Grupo Grande y Mediano de la casa
-        <br />Sumamos equipamiento para SOFTBALL gracias a una generosa donación de tres cascos protectores para incorporar la figura del Cátcher
-        <br />
-      </p>
+    <section class="section-style margenes primera-seccion">
+      <div class="titulo-principal">
+        <h1>Educación</h1>
+        <h1 class="titulo-verde">Física</h1>
+      </div>
+    
+      <p>Se practica fútbol, hockey y softball dos veces por semana.</p>
+      <p>Un profesor (Lucas Gatto) trabaja con cada grupo incorporando actividades conforme a las edades de los chicos.</p>
+      <p>Este año se incorporó al <b>hockey</b> como nuevo deporte gracias al aporte de donaciones del equipamiento para el grupo de <b>grandes</b> y <b>medianos</b> de la casa.</p>
+      <p>También sumamos equipamiento para <b>softball</b> gracias a una generosa donación de tres cascos protectores para incorporar la figura del cátcher.</p>
     </section>
 
     <section class="section-style margenes " style="margin-top:30px">

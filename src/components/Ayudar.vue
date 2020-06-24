@@ -114,9 +114,12 @@ export default {
 </script>
 
 <style scope>
-.bloque-ayuda{
-  background-color: #f0efef
+.bloque-ayuda {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
 }
+
 .button {
   text-decoration: none;
   color: white;

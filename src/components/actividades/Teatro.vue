@@ -15,11 +15,10 @@
       <h1>Taller de</h1>
       <h1 class="titulo-verde">Teatro</h1>
     </div>
-      <p>
-        Profesor Pablo Andrés Nakandakare. DíasLunes y Miércoles en la Casa
-        <br />Incorporamos clases de Teatro en la casa para el Grupo Grande en el TM y TT
-        <br />Se trabaja en la representación de cuentos con valores del autor y autodidacta Pancho Aquino que culminara con una obra teatral abierta a las familias del barrio con la participación de los chicos y de las propias orientadoras en la Casa
-      </p>
+      <p>Incorporamos clases de teatro en la casa para el grupo de <b>grandes</b> tanto para el turno de la mañana como para el de la tarde.</p>
+      <p>Se trabaja en la representación de cuentos con valores del autor y autodidacta <b>Pancho Aquino</b> que culminará con una obra teatral abierta a las familias del barrio con la participación de los chicos y de las propias orientadoras en la casa.</p>
+      <p style="margin-bottom: 0px; padding-bottom: 0px;">Profesor: <b>Pablo Andrés Nakandakare</b></p>
+      <p>Días: Lunes y Miércoles</p>
     </section>
     <actividades></actividades>
   </section>

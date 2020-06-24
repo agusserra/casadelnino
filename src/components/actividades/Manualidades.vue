@@ -9,20 +9,28 @@
       </b-carousel>
     </div>
 
-    <section class="section-style margenes primera-seccion" >
-
-     <div class="titulo-principal">
-      <h1>Taller de</h1>
-      <h1 class="titulo-verde">Manualidades</h1>
-    </div>
-      <p>Desarrollado por cada orientador con su grupo</p>
-
-      <p>
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Actividades artísticas
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Armado de juegos, instrumentos musicales, adornos para fiestas patrias desarrolladas en la Casa, muestras en Feria, encuentros comunitarios
-        <br />
-        <br />
+    <section class="section-style margenes primera-seccion">
+      <div class="titulo-principal">
+        <h1>Taller de</h1>
+        <h1 class="titulo-verde">Manualidades</h1>
+      </div>
+      <p
+        style="margin-bottom: 0px; padding-bottom: 10px;"
+      >Desarrollado por cada orientador con su grupo.</p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Actividades artísticas
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Armado de juegos
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Construcción de instrumentos musicales
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Creación de adornos para fiestas patrias desarrolladas en la casa
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Muestras en ferias y encuentros comunitarios
       </p>
     </section>
     <actividades></actividades>

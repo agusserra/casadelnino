@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style margenes " style="margin-top:30px">
+  <section class="section-style margenes" style="margin-top:30px">
     <h2>Conocé nuestras actividades</h2>
 
     <b-card-group deck style="justify-content:center">
@@ -130,24 +130,33 @@ export default {
 <style scoped>
 .titulo-actividad {
   padding: 0px 10px;
+  color: #2daae1;
 }
 
 .actividades {
-  min-width: 250px;
+  min-width: 200px;
   max-width: 250px;
   margin: 10px 20px;
-  padding:10px;
+  padding: 10px;
   border: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .actividades {
+    max-width: 210px;
+  }
+}
+
 .imagen-actividades {
   width: 500px;
   margin-left: -150px;
-  filter: grayscale(0.9);
+  filter: grayscale(0.7);
   cursor: pointer;
+  overflow: hidden;
 }
 
 .imagen-actividades:hover {
-  filter: grayscale(0.1);
-  transition: filter 0.5s;
+  filter: grayscale(0);
+  transition: filter 0.3s;
 }
 </style>>

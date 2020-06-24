@@ -191,7 +191,7 @@ b {
   }
 
   .titulo-verde {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 

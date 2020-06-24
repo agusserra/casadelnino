@@ -9,22 +9,26 @@
       </b-carousel>
     </div>
 
-    <section class="section-style margenes primera-seccion" >
-
-     <div class="titulo-principal">
-      <h1>Área</h1>
-      <h1 class="titulo-verde">Pastoral</h1>
-    </div>
-      <p>
-        Catequesis para todos los grupos de niños en la casa por profesionales voluntarias
-        <br />Catequesis para Primera Comunión
-        <br />Catequesis Familiar
-        <br />Misión Barrial por jóvenes pertenecientes al Movimiento de Schoenstatt.
-        <br />
+    <section class="section-style margenes primera-seccion">
+      <div class="titulo-principal">
+        <h1>Área</h1>
+        <h1 class="titulo-verde">Pastoral</h1>
+      </div>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Catequesis para todos los grupos de niños en la casa por profesionales voluntarias.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Catequesis para Primera Comunión.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Catequesis familiar.
+      </p>
+      <p class="check-text vertical-center">
+        <b-icon-check class="icon-check"></b-icon-check>Misión Barrial por jóvenes del Movimiento de Schoenstatt.
       </p>
     </section>
 
-    <section class="section-style margenes " style="margin-top:30px">
+    <section class="section-style margenes" style="margin-top:30px">
       <b-carousel style="z-index:2" id="carousel-fade2" img-height="300">
         <b-carousel-slide img-src="public/images/site/pastoral/pastoral1.jpg"></b-carousel-slide>
         <b-carousel-slide img-src="public/images/site/pastoral/pastoral2.jpg"></b-carousel-slide>
