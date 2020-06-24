@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.11.0",
+    "lax.js": "^1.2.5",
     "lottie-vuejs": "^0.3.7",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",

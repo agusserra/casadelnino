@@ -21,7 +21,19 @@ export default {
     appFooter: Footer
   },
   computed: {},
-  methods: {}
+  methods: {},
+  created: function() {
+    window.onload = function() {
+      lax.setup(); // init
+
+      const updateLax = () => {
+        lax.update(window.scrollY);
+        window.requestAnimationFrame(updateLax);
+      };
+
+      window.requestAnimationFrame(updateLax);
+    };
+  }
 };
 </script>
 
@@ -102,9 +114,9 @@ b {
 }
 
 .icon-check {
-  width:25px;
-  height:25px;
-  color:#2daae1;
+  width: 25px;
+  height: 25px;
+  color: #2daae1;
 }
 
 .check-text {
@@ -204,7 +216,6 @@ h1 {
   font-size: 37px;
   margin: 0;
   padding: 0;
-  
 }
 
 h3 {
@@ -236,7 +247,7 @@ h6 {
 p,
 li {
   font-family: "Raleway", sans-serif;
-  
+
   padding: 10px;
   font-size: 18px;
   text-align: left;
@@ -350,7 +361,7 @@ h1 {
   animation-duration: 3s;
 }
 
-h1  {
+h1 {
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }

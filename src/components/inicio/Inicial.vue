@@ -20,9 +20,7 @@ export default {
       speed: 20
     };
   },
-  methods: {
-
-  },
+  methods: {},
   computed: {},
   components: {
     Logo: Logo,
