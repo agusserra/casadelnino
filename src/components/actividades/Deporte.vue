@@ -15,10 +15,10 @@
         <h1 class="titulo-verde">Física</h1>
       </div>
     
-      <p>Se practica fútbol, hockey y softball dos veces por semana.</p>
-      <p>Un profesor (Lucas Gatto) trabaja con cada grupo incorporando actividades conforme a las edades de los chicos.</p>
-      <p>Este año se incorporó al <b>hockey</b> como nuevo deporte gracias al aporte de donaciones del equipamiento para el grupo de <b>grandes</b> y <b>medianos</b> de la casa.</p>
-      <p>También sumamos equipamiento para <b>softball</b> gracias a una generosa donación de tres cascos protectores para incorporar la figura del cátcher.</p>
+      <p class="less-gutter">Se practica fútbol, hockey y softball dos veces por semana.</p>
+      <p class="less-gutter">Un profesor (Lucas Gatto) trabaja con cada grupo incorporando actividades conforme a las edades de los chicos.</p>
+      <p class="less-gutter">Este año se incorporó al <b>hockey</b> como nuevo deporte gracias al aporte de donaciones del equipamiento para el grupo de <b>grandes</b> y <b>medianos</b> de la casa.</p>
+      <p class="less-gutter">También sumamos equipamiento para <b>softball</b> gracias a una generosa donación de tres cascos protectores para incorporar la figura del cátcher.</p>
     </section>
 
     <section class="section-style margenes " style="margin-top:30px">

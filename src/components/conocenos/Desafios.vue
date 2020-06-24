@@ -11,9 +11,9 @@
     </div>
 
     <section class="section-style margenes primera-seccion">
-     <div class="titulo-principal">
-      <h1 class="titulo-verde">Desafíos</h1>
-    </div>
+      <div class="titulo-principal">
+        <h1 class="titulo-verde">Desafíos</h1>
+      </div>
       <b-card no-body class="overflow-hidden" style="border:0px">
         <b-row no-gutters>
           <b-col md="1">
@@ -90,9 +90,7 @@
           <b-card no-body style="max-width: 20rem;" class="caja mb-2">
             <b-card-text>
               <h4 class="font-celeste" style="font-weight: bolder; padding: 0px;">Requisitos</h4>
-              <p
-                style="margin-bottom: 0px; padding: 0px 0px 10px 0px;"
-              >Se requiere que los chicos:</p>
+              <p style="margin-bottom: 0px; padding: 0px 0px 10px 0px;">Se requiere que los chicos:</p>
               <p style="margin-bottom: 0px; padding: 0px;">
                 <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Tengan entre 3 y 13 años
               </p>
@@ -108,9 +106,7 @@
           <b-card no-body style="max-width: 20rem;" class="caja font-celeste mb-2">
             <b-card-text>
               <h4 class="font-celeste" style="font-weight: bolder; padding: 0px;">Grupos</h4>
-              <p
-                style="margin-bottom: 0px; padding: 0px 0px 10px 0px;"
-              >Se dividen en 4 grupos:</p>
+              <p style="margin-bottom: 0px; padding: 0px 0px 10px 0px;">Se dividen en 4 grupos:</p>
               <p style="margin-bottom: 0px; padding: 0px;">
                 <b-icon-check style="color:#2daae1; width:20px; height:20px;"></b-icon-check>Grupo
                 <b>jardín</b>: 3 a 5 años
@@ -131,8 +127,7 @@
           </b-card>
         </b-card-group>
       </div>
-      </section>
-    
+    </section>
 
     <section class="section-style margenes" style="margin-top:30px">
       <h2 style="text-align:center; color:#BED546">Brindamos las 3 "A"</h2>
@@ -142,10 +137,14 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0">Alimentación</h2>
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Alimentación</h2>
                 <b-card-text>
-                  <p>Turno de mañana: desayuno, refuerzo de media mañana y almuerzo.</p>
-                  <p>Turno de tarde: almuerzo, refuerzo de media tarde y merienda.</p>
+                  <p class="less-gutter">
+                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:15px"></b-icon-check><b>Turno de mañana:</b> desayuno, refuerzo de media mañana y almuerzo.
+                  </p>
+                  <p class="less-gutter">
+                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:15px"></b-icon-check><b>Turno de tarde:</b> almuerzo, refuerzo de media tarde y merienda.
+                  </p>
                 </b-card-text>
               </b-card-body>
             </b-col>
@@ -155,11 +154,13 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0">Amor</h2>
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Amor</h2>
 
                 <b-card-text>
-                  <p>Elementos de abrigo e higiene.</p>
-                  <p>Acompañamiento y seguimiento mediante un equipo de salud compuesto por una psicóloga, una médica nutricionista y médico pediatra.</p>
+                  <p class="less-gutter">
+                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:15px"></b-icon-check>Elementos de abrigo e higiene.</p>
+                  <p class="less-gutter">
+                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:15px"></b-icon-check>Acompañamiento y seguimiento mediante un equipo de salud compuesto por una psicóloga, una médica nutricionista y médico pediatra.</p>
                 </b-card-text>
               </b-card-body>
             </b-col>
@@ -169,31 +170,13 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0">Apoyo Integral</h2>
-
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Apoyo Integral</h2>
                 <b-card-text>
                   Además del
                   <b style="color:#F4964C;">apoyo escolar</b> que les brindamos a los chicos, también damos
                   <b
                     style="color:#F4964C;"
                   >apoyo espiritual y humano</b> a través de las diversas ocupaciones. Nos interesamos especialmente en que todo niño que asiste a la Casa vaya asumiendo valores, actitudes y comportamientos que le sirvan en el futuro para desempeñarse como una persona de bien.
-                  <br />Los valores fundamentales en que se fundamenta todo el trabajo pedagógico son:
-                  <br />
-                  <p>
-                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:20px"></b-icon-check>La libertad entendida como decisión por un bien y superación de las esclavitudes que conllevan las diversas adicciones.
-                  </p>
-                  <p>
-                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:20px"></b-icon-check>La solidaridad, que abre el corazón de los niños para los demás compañeros y luego para las personas con las cuales comparte y compartirá su vida.
-                  </p>
-                  <p>
-                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:20px"></b-icon-check>La integración de la personalidad donde las diversas facultades se van ordenando a su finalidad, la inteligencia a la verdad, la voluntad al bien y los afectos al verdadero y auténtico amor.
-                  </p>
-                  <p>
-                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:20px"></b-icon-check>La creatividad para ir superando los comportamientos resignados y estancos que impiden crecer, a pesar de las dificultades adversas del ambiente.
-                  </p>
-                  <p>
-                    <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:20px"></b-icon-check>La espiritualidad como el aprecio a la dimensión espiritual y religiosa, respetando los diversos credos y creencias que tienen los hijos, según las determinaciones de sus padres.
-                  </p>
                 </b-card-text>
               </b-card-body>
             </b-col>

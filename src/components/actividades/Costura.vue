@@ -14,15 +14,12 @@
         <h1>Taller de</h1>
         <h1 class="titulo-verde">Costura</h1>
       </div>
-      <p>
-        A cargo de Mujeres Voluntarias del Barrio con el apoyo de referentes voluntarias profesionales del Área de Costura
-        <br />MODALIDAD: Semanal. Miércoles en TM (10 a 12) y TT (13 a 16 hs)
-        <br />Actualmente las niños del Grupo Grande (10 a 13 años) participan del taller de costura bajo un proyecto de reciclado
-        <br />Con la ayuda de las talleristas, reutilizan las telas de sus propios muñecos o juguetes confeccionando nuevos diseños
-        <br />Arreglan los propios y se divierten mucho en el proceso
-        <br />El 24 de octubre se realizará la muestra anual de las prendas confeccionadas durante el año abierta a las familias del barrio
-        <br />
-      </p>
+      <p class="less-gutter">Está a cargo de mujeres voluntarias del barrio con el apoyo de referentes voluntarias profesionales del área de Costura.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Se desarrolla de manera semanal, los días miércoles en ambos turnos.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Actualmente las niños del <b>Grupo Grande</b> (10 a 13 años) participan del taller de costura bajo un proyecto de reciclado.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Con la ayuda de las talleristas, reutilizan las telas de sus propios muñecos o juguetes confeccionando nuevos diseños.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Arreglan los propios y se divierten mucho en el proceso.</p>
+      <p class="less-gutter">El 24 de octubre se realizará la <b>muestra anual</b> de las prendas confeccionadas durante el año abierta a las familias del barrio.</p>
     </section>
     <actividades></actividades>
   </section>

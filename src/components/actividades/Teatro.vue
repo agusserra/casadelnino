@@ -15,10 +15,10 @@
       <h1>Taller de</h1>
       <h1 class="titulo-verde">Teatro</h1>
     </div>
-      <p>Incorporamos clases de teatro en la casa para el grupo de <b>grandes</b> tanto para el turno de la mañana como para el de la tarde.</p>
-      <p>Se trabaja en la representación de cuentos con valores del autor y autodidacta <b>Pancho Aquino</b> que culminará con una obra teatral abierta a las familias del barrio con la participación de los chicos y de las propias orientadoras en la casa.</p>
-      <p style="margin-bottom: 0px; padding-bottom: 0px;">Profesor: <b>Pablo Andrés Nakandakare</b></p>
-      <p>Días: Lunes y Miércoles</p>
+      <p class="less-gutter">Incorporamos clases de teatro en la casa para el grupo de <b>grandes</b> tanto para el turno de la mañana como para el de la tarde.</p>
+      <p class="less-gutter">Se trabaja en la representación de cuentos con valores del autor y autodidacta <b>Pancho Aquino</b> que culminará con una obra teatral abierta a las familias del barrio con la participación de los chicos y de las propias orientadoras en la casa.</p>
+      <p class="less-gutter">Profesor: <b>Pablo Andrés Nakandakare</b></p>
+      <p class="less-gutter">Días: Lunes y Miércoles</p>
     </section>
     <actividades></actividades>
   </section>

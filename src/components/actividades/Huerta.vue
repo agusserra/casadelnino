@@ -15,28 +15,15 @@
       <h1>Taller de</h1>
       <h1 class="titulo-verde">Huerta</h1>
     </div>
-      <p>
-        PROYECTO HUERTA COMUNITARIA presentada por el Grupo de Madres del Movimiento Apostólico de Schoenstatt del Santuario de Confidentia con el apoyo de ProHuerta INTA
-        <br />Huerta Orgánica y Sustentable
-        <br />
-        <br />TALLER SEMANAL. Días jueves en la Casa en ambos turnos
-        <br />Los talleres se brindan por el Equipo Huerta a los niños en la Casa mediante un proceso de aprendizaje por etapas
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Preparación de la huerta, trabajo sobre la tierra, cultivo, cuidado, cosecha
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Desarrollo de Compost (restos de comida reutilizables)
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Se trabaja sobre el conocimiento de la naturaleza, sus beneficios, la sana alimentación, cultura del trabajo, valores de solidaridad, espera, higiene, sustentabilidad
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Los chicos aprenden y participan del proceso junto a sus orientadores que motivan y acompañan en el cuidado diario del la huerta en la Casa
-        <br />
-        <b-icon-check style="color:#2daae1; width:20px; height:20px"></b-icon-check>Se brindan talleres abiertos a las familias del barrio para enseñarles a desarrollar su propia huerta en sus hogares
-        <br />Tiene como fin el fortalecimiento de las capacidades motrices de los niños.
-        <br />
-        <br />
-        <b>Profesionales voluntarios de arte: Laura Varangot y Gonzalo Gorostiaga.</b>
-        <br />
-      </p>
+      <p class="less-gutter">El grupo de Madres del <b>Movimiento Apostólico de Schoenstatt</b> del Santuario de Confidentia con el apoyo de <b>ProHuerta INTA</b> están desarrollando el proyecto <b style="color:#F4964C;">Huerta Comunitaria</b>.</p>
+      <p class="less-gutter">Los talleres se brindan de forma semanal, los días jueves en ambos turnos, por el Equipo Huerta. Los niños desarrollan una huerta orgánica y saludable mediante un proceso de aprendizaje por etapas:</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Preparación de la huerta, trabajo sobre la tierra, cultivo, cuidado y cosecha.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Desarrollo de Compost (restos de comida reutilizables).</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Se trabaja sobre el conocimiento de la naturaleza, sus beneficios, la sana alimentación, cultura del trabajo, valores de solidaridad, espera, higiene y sustentabilidad.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Los chicos aprenden y participan del proceso junto a sus orientadores que motivan y acompañan en el cuidado diario del la huerta en la Casa.</p>
+      <p class="less-gutter"><b-icon-check class="icon-check"></b-icon-check>Se brindan talleres abiertos a las familias del barrio para enseñarles a desarrollar su propia huerta en sus hogares.</p>
+      <p class="less-gutter">Tiene como fin el fortalecimiento de las capacidades motrices de los niños.</p>
+      <p class="less-gutter">Profesionales voluntarios de arte: <b>Laura Varangot y Gonzalo Gorostiaga.</b></p>
     </section>
 
     <section class="section-style margenes " style="margin-top:30px">
@@ -107,6 +94,7 @@ export default {
   width:100%;
   height:100%;
 }
+
 .icon-obj {
   width: 80px;
   height: 80px;

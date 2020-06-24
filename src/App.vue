@@ -91,7 +91,7 @@ b {
   font-size: 50px;
   font-weight: 500;
   text-align: center;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 .font-verde {
@@ -111,6 +111,10 @@ b {
   height: 80px;
   color: #2daae1;
   padding: 10px;
+}
+
+.less-gutter {
+  margin-bottom: 0px;
 }
 
 .icon-check {
