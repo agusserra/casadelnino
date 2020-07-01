@@ -137,7 +137,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Alimentación</h2>
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px; text-align:center;">Alimentación</h2>
                 <b-card-text>
                   <p class="less-gutter">
                     <b-icon-check style="color:#2daae1; width:30px; height:30px; margin-right:15px"></b-icon-check><b>Turno de mañana:</b> desayuno, refuerzo de media mañana y almuerzo.
@@ -154,7 +154,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Amor</h2>
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px; text-align:center;">Amor</h2>
 
                 <b-card-text>
                   <p class="less-gutter">
@@ -170,7 +170,7 @@
           <b-row no-gutters>
             <b-col>
               <b-card-body>
-                <h2 style="color:#2daae1; margin:0; padding-bottom:5px;">Apoyo Integral</h2>
+                <h2 style="color:#2daae1; margin:0; padding-bottom:5px; text-align:center;">Apoyo Integral</h2>
                 <b-card-text>
                   Además del
                   <b style="color:#F4964C;">apoyo escolar</b> que les brindamos a los chicos, también damos
