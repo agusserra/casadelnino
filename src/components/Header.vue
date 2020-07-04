@@ -4,7 +4,10 @@
       <img src="public/images/site/logo.svg" height="60px" alt="Casa del Niño" style="padding:5px" />
     </router-link>
 
+
+
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
