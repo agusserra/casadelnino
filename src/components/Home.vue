@@ -1,10 +1,11 @@
 <template>
   <div id="app" class="inicio" >
     <loader></loader>
-    <app-inicial></app-inicial>
-    <app-bienvenidos></app-bienvenidos>
+    <app-bienvenidos class="margen-superior" ></app-bienvenidos>
     <app-mision-vision></app-mision-vision>
     <app-objetivos></app-objetivos>
+    <app-inicial></app-inicial>
+
   </div>
 </template>
 
@@ -37,5 +38,13 @@ export default {
 </script>
 
 <style>
+.margen-superior{
+  margin-top:400px
+}
 
+@media screen and (max-width: 600px) {
+  .margen-superior{
+  margin-top:180px
+}
+}
 </style>

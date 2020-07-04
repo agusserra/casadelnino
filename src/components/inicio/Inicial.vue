@@ -1,12 +1,17 @@
 <template>
   <section style="text-align:center">
-    <b-carousel class="carousel-top" fade img-width="1024" img-height="480">
-      <b-carousel-slide img-src="public/images/site/portada1.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada2.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada3.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="public/images/site/portada4.jpg"></b-carousel-slide>
-    </b-carousel>
+    <div class="mensaje-bienvenida">
+      <h1 class="sub-titulo">Bienvenidos a</h1>
+      <h1 class="titulo">La casa del niño</h1>
+    </div>
+
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo" style="width:100%; position: absolute; top: 0; z-index:-2; filter: drop-shadow(-1px 11px 16px rgb(0,0,0,0.3)) brightness(0.5)">
+      <source src="public/video/background.mp4" type="video/mp4" />
+    </video>
   </section>
+
+  
 </template>
 
 <script>
@@ -28,11 +33,40 @@ export default {
     Slide
   },
 
-  mounted: function() {}
+  created: function() {}
 };
 </script>
 
 <style>
+.mensaje-bienvenida {
+  top:0;
+  margin-top: 100px;
+  margin-left:10%;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 80%;
+  z-index: 1;
+}
+.sub-titulo {
+  color: white;
+  font-size: 40px;
+}
+.titulo {
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  /*min-height: 100%;*/
+  filter:brightness(0.5)
+}
+
 .ingreso {
   margin: 30px;
   border-radius: 15px !important;
@@ -62,6 +96,9 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
+  .mensaje-bienvenida{
+    margin-top:30px
+  }
   .logo-inicio {
     width: 80%;
     margin: 15px;
@@ -69,6 +106,16 @@ export default {
 
   .card-img-top {
     height: 100%;
+  }
+
+  .sub-titulo {
+    color: white;
+    font-size: 15px;
+  }
+  .titulo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
   }
 }
 </style>

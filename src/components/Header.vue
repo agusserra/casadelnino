@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="xl" type="light" class="margenes" id="inicio">
     <router-link to="/" class="navbar-brand">
-      <img src="public/images/site/logo.svg" height="70px" alt="Casa del Niño" style="padding:5px" />
+      <img src="public/images/site/logo.svg" height="60px" alt="Casa del Niño" style="padding:5px" />
     </router-link>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

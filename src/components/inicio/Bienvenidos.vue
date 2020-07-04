@@ -1,8 +1,7 @@
 <template>
-  <section class="section-style margenes primera-seccion lax" data-lax-translate-y="1 0,500 -50"> 
+  <section class="section-style margenes lax"  data-lax-preset="fadeOutIn">  
     <div class="titulo-principal">
-      <h1 >Bienvenidos</h1>
-      <h1 class="titulo-verde">La casa del niño</h1>
+
     </div>
     <p class="lax" data-lax-preset="fadeOutIn" >
       La
