@@ -44,7 +44,7 @@
         </div>
 
         <div style="width: 100%; margin: auto; text-align: center;">
-          <b-button variant="primary" class="button">
+          <b-button variant="primary" class="button" href="https://donaronline.org/casa-del-nino-padre-jose-kentenich/apadrina-un-nino" target="_blank">
             <h6 class="font-blanco">
               <b>Quiero ayudar</b>
             </h6>
