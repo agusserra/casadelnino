@@ -49,29 +49,16 @@
       <h3 style="text-align:left;">¿Qué estamos buscando?</h3>
       <p>Buscamos personas que se comprometan a aportar una suma todos los meses para lograr que haya más niños en nuestro hogar y menos niños en las calles.</p>
 
-      <div>
-        <b-img src="public/images/site/voluntario.jpg" style="width:100%;padding:10px"></b-img>
-      </div>
-
-      <div style=" text-align:left">
-        <p>Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad.</p>
-      </div>
-
-      <div style="padding:10px">
-        <b-form-input v-model="nombre" placeholder="Tu nombre"></b-form-input>
-      </div>
-
-      <div style="padding:10px">
-        <b-form-input type="email" v-model="mail" placeholder="Tu e-mail"></b-form-input>
-      </div>
-
-      <div style="padding:10px">
-        <b-form-textarea v-model="mensaje" placeholder="Mensaje"></b-form-textarea>
-      </div>
-      <div style="width: 100%; margin: auto; text-align: center;">
-        <b-button variant="primary" style="border-radius:100px" class="button">
+            <div style="width: 100%; margin: auto; text-align: center;">
+        <b-button
+          variant="primary"
+          style="border-radius:100px"
+          class="button"
+          href="https://donaronline.org/casa-del-nino-padre-jose-kentenich/apadrina-un-nino"
+          target="_blank"
+        >
           <h6 class="font-blanco">
-            <b>Enviar</b>
+            <b>Quiero ser voluntario</b>
           </h6>
         </b-button>
       </div>

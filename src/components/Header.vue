@@ -77,27 +77,12 @@
           <b-img src="public/images/site/voluntario.jpg" style="width:100%;padding:10px"></b-img>
         </div>
 
-        <div style=" text-align:left">
-          <p>Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad.</p>
+        <div style="text-align:left;">
+          <p style="margin-bottom: 0px;">Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad.</p>
         </div>
 
-        <div style="padding:10px">
-          <b-form-input v-model="nombre" placeholder="Tu nombre"></b-form-input>
-        </div>
-
-        <div style="padding:10px">
-          <b-form-input type="email" v-model="mail" placeholder="Tu e-mail"></b-form-input>
-        </div>
-
-        <div style="padding:10px">
-          <b-form-textarea v-model="mensaje" placeholder="Mensaje"></b-form-textarea>
-        </div>
-        <div style="width: 100%; margin: auto; text-align: center;">
-        <b-button variant="primary" style="border-radius:100px" class="button">
-          <h6 class="font-blanco">
-            <b>Enviar</b>
-          </h6>
-        </b-button>
+        <div>
+          <iframe src='contact-form/contact-form.php' frameborder='0' width='100%' height='420' allowtransparency='true'></iframe>
         </div>
       </b-modal>
     </div>
