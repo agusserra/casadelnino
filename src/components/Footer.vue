@@ -58,11 +58,11 @@
 
         <b-button
           v-b-modal.modal-1
-          style="background-color:#2daae1; margin:5px; border-radius:100px;color:white; border:0px"
+          style="width:200px; background-color:#2daae1; margin:auto; margin-bottom:10px; border-radius:100px;color:white; border:0px"
         >Apadrinar a un niño</b-button>
         <b-button
           v-b-modal.modal-2
-          style="background-color:#2daae1; margin:5px; border-radius:100px;color:white; border:0px"
+          style="width:200px; background-color:#2daae1; margin:auto; border-radius:100px;color:white; border:0px"
         >Ser voluntario</b-button>
 
         <div>
