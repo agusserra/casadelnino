@@ -49,9 +49,11 @@
 
       <p>Buscamos personas que se comprometan a aportar parte de su tiempo, habilidades o donaciones. Te invitamos a colaborar con nuestra organización. Súmate a hacer comunidad.</p>
 
+      <div style="width: 100%; margin: auto; text-align: center;">
+
       <b-button
         variant="primary"
-        style="border-radius:100px"
+        style="border-radius:100px; text-align:center"
         class="button"
         v-b-modal.modal-2
         target="_blank"
@@ -60,8 +62,9 @@
           <b>Quiero ser voluntario</b>
         </h6>
       </b-button>
+      </div>
       <hr>
-      <h4>¡Gracias por tu ayuda!</h4>
+      <h4 style="text-align:center">¡Gracias por tu ayuda!</h4>
     </section>
   </section>
 </template>
