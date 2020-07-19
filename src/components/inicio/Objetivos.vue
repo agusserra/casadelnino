@@ -1,6 +1,7 @@
 <template>
-  <section class="section-style margenes lax" style="margin-top:30px" data-lax-preset="fadeIn"  >
+  <section class="section-style margenes " style="margin-top:30px"   >
     <h2 class="lax" data-lax-preset="fadeIn" style="text-align: center;">Nuestros Objetivos</h2>
+
 
     <b-card no-body class="overflow-hidden" style="border:0px">
       <b-row no-gutters>

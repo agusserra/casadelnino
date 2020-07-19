@@ -6,7 +6,7 @@
     </div>
 
     <!-- The video -->
-    <video autoplay muted loop id="myVideo" style="width:100%; position: absolute; top: 0; z-index:-2; filter: drop-shadow(-1px 11px 16px rgb(0,0,0,0.3)) brightness(0.5)">
+    <video autoplay muted loop id="myVideo" style="width:100%; position: absolute; top: 0; z-index:-2; filter: drop-shadow(-1px 11px 16px rgb(0,0,0,0.3))  brightness(0.5)">
       <source src="public/video/background.mp4" type="video/mp4" />
     </video>
   </section>
@@ -51,11 +51,11 @@ export default {
 }
 .sub-titulo {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 .titulo {
   color: white;
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
 }
 
@@ -114,7 +114,7 @@ export default {
   }
   .titulo {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
   }
 }

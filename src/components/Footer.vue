@@ -1,7 +1,6 @@
 <template>
   <section class="footer">
     <b-card-group deck class="deck-footer margenes">
-      
       <b-card no-body class="overflow-hidden card-footer" style="border:0px">
         <b-row no-gutters>
           <b-col md="12">
@@ -44,22 +43,57 @@
       <b-card no-body class="overflow-hidden card-footer" style="border:0px; ">
         <router-link
           :to="{
-        path:'/QuieroAyudar',
-        hash:'#inicio'
-        }"
+           path:'/QuieroAyudar',
+           hash:'#inicio'
+           }"
           style="cursor:pointer; text-align:center"
           tag="div"
         >
           <b-row no-gutters>
             <b-col md="12">
-              <h2>Quiero ayudar</h2>
-              
-              <b-icon-heart-fill style="width:80px; height:80px; margin-top: 15px; text-align:center; color: #F4964C"></b-icon-heart-fill>
+              <h5>Quiero ayudar</h5>
             </b-col>
           </b-row>
         </router-link>
-      </b-card>
 
+        <b-button
+          v-b-modal.modal-1
+          style="background-color:#2daae1; margin:5px; border-radius:100px;color:white; border:0px"
+        >Apadrinar a un niño</b-button>
+        <b-button
+          v-b-modal.modal-2
+          style="background-color:#2daae1; margin:5px; border-radius:100px;color:white; border:0px"
+        >Ser voluntario</b-button>
+
+        <div>
+          <b-row no-gutters>
+            <b-col md="12">
+              <h5>Seguinos en</h5>
+            </b-col>
+            <b-col md="12" style="text-align:center">
+              <a
+                href="https://www.facebook.com/CasaDelNinoPJK"
+                style="margin:5px; color:white; text-align:center; width:40px; height:40px; background-color:#2daae1; padding:10px; border-radius:100px"
+                class="fa fa-facebook"
+                target="_blank"
+              ></a>
+                            <a
+                href="https://www.youtube.com/channel/UCpqTl5pNHDCJIY2XzQlIA_w"
+                style="margin:5px; color:white; text-align:center; width:40px; height:40px; background-color:#2daae1; padding:10px; border-radius:100px"
+                class="fa fa-youtube-play"
+                target="_blank"
+              ></a>
+                            <a
+                href="https://www.instagram.com/casadelninopk/"
+                style="margin:5px; color:white; text-align:center; width:40px; height:40px; background-color:#2daae1; padding:10px; border-radius:100px"
+                class="fa fa-instagram"
+                target="_blank"
+              ></a>
+            </b-col>
+
+          </b-row>
+        </div>
+      </b-card>
     </b-card-group>
   </section>
 </template>
@@ -103,7 +137,7 @@ export default {
 }
 
 .card-footer {
-  margin-bottom:30px;
+  margin-bottom: 30px;
   padding-bottom: 30px;
   min-width: 280px;
   border-radius: 2px;

@@ -1,5 +1,5 @@
 <template>
-  <section class="section-style margenes lax" style="margin-top:30px"  data-lax-preset="fadeIn" >
+  <section class="section-style margenes " style="margin-top:30px"   >
     <b-card-group deck>
       <b-card no-body class="overflow-hidden" style="border:0px">
         <b-row no-gutters>

@@ -16,23 +16,15 @@ const router = new VueRouter({
   routes,
   linkExactActiveClass: "vue-school-active-class",
   scrollBehavior(to, from, savedPosition) {
-    console.log(savedPosition)
-    console.log("scrollBehavior")
-
     if (savedPosition) {
-      console.log("savedPosition")
       return savedPosition;
     } else {
-      console.log("noSavedPosition")
-      console.log(to.hash)
+      console.log(to.hash);
 
       const position = {};
       if (to.hash) {
-        console.log("to.hash")
         position.selector = to.hash;
         if (document.querySelector(to.hash)) {
-          console.log("querySelector")
-
           return position;
         }
         return false;

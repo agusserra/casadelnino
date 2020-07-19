@@ -1,9 +1,9 @@
 <template>
-  <section class="section-style margenes lax"  data-lax-preset="fadeOutIn">  
+  <section class="section-style margenes lax"  data-lax-preset="fadeIn">  
     <div class="titulo-principal">
 
     </div>
-    <p class="lax" data-lax-preset="fadeOutIn" >
+    <p class="lax" data-lax-preset="fadeIn" >
       La
       <b>Casa del Niño</b> Padre José Kentenich es un hogar de día para niños de 3 a 13 años situada en el barrio San Nicolás de
       <b>Florencio Varela</b>. Buscamos que puedan crecer en un ambiente sano, lleno de amor, confianza y sobre todo esperanza. Los cerca de 300 niños que alberga la casa aprenden valores nobles para que puedan encontrar su camino en la vida de una manera sana, alejados de los peligros de la calle.

@@ -1,13 +1,11 @@
 <template>
+<div>
   <b-navbar toggleable="xl" type="light" class="margenes" id="inicio">
     <router-link to="/" class="navbar-brand">
       <img src="public/images/site/logo.svg" height="60px" alt="Casa del Niño" style="padding:5px" />
     </router-link>
 
-
-
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
@@ -46,7 +44,64 @@
         </div>
       </b-navbar-nav>
     </b-collapse>
+
   </b-navbar>
+      <div>
+      <b-modal id="modal-1" size="lg" hide-footer title="Apadriná a un niño">
+        <div>
+          <b-img src="public/images/site/padrino.jpg" style="width:100%;padding:10px"></b-img>
+        </div>
+
+        <div style=" text-align:left">
+          <p>Te invitamos a apadrinar a un niño. Con tu donación nos acompañás para seguir brindándoles condiciones y oportunidades, mejorando la calidad de vida de estos niños.</p>
+          <p>A cada niño que apadrines podremos garantizarle el desayuno, almuerzo y merienda; útiles escolares; apoyo escolar; acompañamiento pedagógico y espiritual; talleres de lecto-escritura.</p>
+        </div>
+
+        <div style="width: 100%; margin: auto; text-align: center;">
+          <b-button
+            variant="primary"
+            style="border-radius:100px"
+            class="button"
+            href="https://donaronline.org/casa-del-nino-padre-jose-kentenich/apadrina-un-nino"
+            target="_blank"
+          >
+            <h6 class="font-blanco">
+              <b>Quiero apadrinar a un niño</b>
+            </h6>
+          </b-button>
+        </div>
+      </b-modal>
+
+      <b-modal id="modal-2" size="lg" hide-footer title="Voluntariado">
+        <div>
+          <b-img src="public/images/site/voluntario.jpg" style="width:100%;padding:10px"></b-img>
+        </div>
+
+        <div style=" text-align:left">
+          <p>Comentanos tu nombre, qué te gustaría hacer y nos pondremos en contacto con vos a la brevedad.</p>
+        </div>
+
+        <div style="padding:10px">
+          <b-form-input v-model="nombre" placeholder="Tu nombre"></b-form-input>
+        </div>
+
+        <div style="padding:10px">
+          <b-form-input type="email" v-model="mail" placeholder="Tu e-mail"></b-form-input>
+        </div>
+
+        <div style="padding:10px">
+          <b-form-textarea v-model="mensaje" placeholder="Mensaje"></b-form-textarea>
+        </div>
+        <div style="width: 100%; margin: auto; text-align: center;">
+        <b-button variant="primary" style="border-radius:100px" class="button">
+          <h6 class="font-blanco">
+            <b>Enviar</b>
+          </h6>
+        </b-button>
+        </div>
+      </b-modal>
+    </div>
+</div>
 </template>
 
 <script>
@@ -55,6 +110,8 @@ export default {
   data() {
     return {
       nombre: "",
+      mail:"",
+      mensaje:"",
       notificaciones: [],
       notificacionesVistas: []
     };
