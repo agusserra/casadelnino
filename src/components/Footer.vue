@@ -13,7 +13,7 @@
               </p>
               <p style="margin: 0px; font-size: 1em;">
                 (+54 11) 4255-6776
-                <br />(+54 911) 4086-6932
+                <br />(+54 911) 5020-7771
               </p>
             </b-card-body>
           </b-col>

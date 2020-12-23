@@ -66,6 +66,27 @@
           </b-card>
           <b-card no-body class="overflow-hidden miembros">
             <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/piedrabuena.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Padre Federico Piedrabuena</h5>
+              <h6 class="cargo">Vocal suplente</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/jose.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Padre José María Iturrería</h5>
+              <h6 class="cargo">Revisor de cuentas</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
+              <b-img src="public/images/site/comision/sofi.jpg" class="imagen-conocenos"></b-img>
+              <h5 class="nombre">Sofía Viñas</h5>
+              <h6 class="cargo">Revisora de cuentas</h6>
+            </b-card-text>
+          </b-card>
+          <b-card no-body class="overflow-hidden miembros">
+            <b-card-text style=" padding:0px">
               <b-img src="public/images/site/comision/agus.jpg" class="imagen-conocenos"></b-img>
               <h5 class="nombre">Agustín Serra</h5>
               <h6 class="cargo">Revisor de cuentas</h6>
